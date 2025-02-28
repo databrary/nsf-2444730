@@ -2,6 +2,6 @@
 
 ![Graphic summary of the main aims of the project and their relationship to the phases of scientific research.](include/img/Fig-1-Aims-v2.png){#fig-aims}
 
-This site provides supporting documentation a project funded by the U.S. National Science Foundation "Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior", [NSF 2444730](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444730&HistoricalAwards=false). The project period is March 1, 2025 to February 28, 2027.
+This site provides supporting documentation for a project funded by the U.S. National Science Foundation "Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior", [NSF 2444730](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444730&HistoricalAwards=false). The project period is March 1, 2025 to February 28, 2027.
 
 We are grateful to taxpayers for their support of scientific research.
