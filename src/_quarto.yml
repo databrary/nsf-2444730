@@ -8,6 +8,7 @@ book:
   chapters:
     - index.qmd
     - proposal.qmd
+    - planning.qmd
   repo-url: https://github.com/databrary/nsf-2444730/
   repo-actions: [edit, issue]
   repo-subdir: src
