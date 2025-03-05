@@ -1,10 +1,14 @@
 project:
   type: book
   output-dir: ../docs
+  render:
+    - "./*.qmd"
+    - "slides/*.qmd"
 
 book:
   title: "Databrary NSF 2444730"
   author: "Rick Gilmore"
+  image: "include/img/databrary-large.png"
   chapters:
     - index.qmd
     - proposal.qmd

@@ -1,0 +1,24 @@
+---
+title: "Project kick-off"
+subtitle: "2025-03-10"
+---
+
+# Overview
+
+![](../include/img/databrary-logo.png)
+
+---
+
+![Rumsfeld's unknown-unknowns and the Johari window, @Wikipedia-contributors2025-mc](../include/img/ johari-window-wikipedia.png)
+
+---
+
+![](https://cdn.vertex42.com/ExcelTemplates/Images/eisenhower-matrix-urgent-important-four-quadrants.png){fig-align="center"}
+
+## Agenda
+
+- Overview of Aims
+
+# Resources
+
+## References

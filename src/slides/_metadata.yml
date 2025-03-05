@@ -1,0 +1,17 @@
+author: "Rick Gilmore"
+format: 
+  revealjs:
+    footer: "[NSF-2444730](../index.html)"
+    slide-number: true
+    fig-align: center
+    logo: ../include/img/databrary-large.png
+    bibliography: ../include/bib/nsf-2444730.bib
+    # csl: ../include/bib/apa.csl
+    # css: ../include/css/gilmore-revealjs.css
+    code-fold: false
+    code-tools: true
+    chalkboard: true
+knitr:
+  opts_chunk:
+    fig.path: ../include/fig/
+    
