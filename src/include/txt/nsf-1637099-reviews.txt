@@ -1,0 +1,391 @@
+Proposal Number:
+
+
+1637099
+
+
+Proposal Title:
+
+
+Collaborative Research: Sharing and reusing video data: Building on human-applied tags
+
+
+Received by NSF:
+
+
+02/29/16
+
+
+Principal Investigator:
+
+
+Rick Gilmore
+
+
+This Proposal has been Electronically Signed by the Authorized Organizational Representative (AOR).
+
+
+
+
+NSF Program Information
+
+
+NSF Division:
+
+
+SBE Off Of Multidisciplinary Activities
+
+
+NSF Program:
+
+
+Data Infrastructure
+
+
+Program Officer:
+
+
+John E. Yellen
+
+
+PO Telephone:
+
+
+(703) 292-8759
+
+
+PO Email:
+
+
+jyellen@nsf.gov
+
+
+Review Information:
+
+
+External Peer Review began on 05/19/16
+
+
+Proposal Status
+
+
+Status As of Today Dated: 06/17/16
+
+
+This proposal has been declined by NSF.
+
+
+Our records indicate that the following Annual Project Report(s) are due or overdue for the Award(s) listed below. Please submit the report(s) as soon as possible using the Project Reports System within FastLane.The report(s) will be considered overdue if not submitted by the Report Overdue Date mentioned for each report. Having an Overdue project report will affect/delay NSF actions on any other award related to the PI/Co-PI:
+
+
+Award 1147440: Annual Report overdue for period ending 05/31/2016 for Rick Gilmore
+
+
+Reviews
+
+
+All of the reviews of your proposal that have been released to you by your NSF program officer can be viewed below. Please note that the Sponsored Project Office (or equivalent) at your organization is NOT given the capability to view your reviews.
+
+
+Document:
+
+
+Release Date:
+
+
+Panel Summary #1
+
+
+Jun 16 2016 9:02AM
+
+
+Review #1
+
+
+Jun 16 2016 8:58AM
+
+
+Review #2
+
+
+Jun 16 2016 8:58AM
+
+
+Review #3
+
+
+Jun 16 2016 8:58AM
+
+
+Context Statement
+
+
+In response to the Program Announcement NSF 15-602, "Resource Implementations for Data Intensive Research in the Social Behavioral and Economic Sciences (RIDIR)" 51 projects were submitted for consideration. Principal Investigators of non-compliant applications were given the opportunity to submit necessary revisions. It is estimated that approximately $4.5 million will be invested in awards.
+
+
+Proposals were evaluated by a 15 member mixed in-person - WebEx panel which convened at the National Science Foundation on May 19 and 20, 2016. For each proposal written evaluations were provided by three assigned panel members. (In several cases additional panel members provided reviews.) At the conclusion of each discussion the panel placed the proposal in one of four categories: High Competitive, Competitive, Low Competitive and Non-Competitive. A distribution of proposals by category is provided below. It is likely that limited funds will permit a maximum of ca. 4 awards.
+
+
+Verbatim copies of the evaluations and a summary of the panel discussion are made available to all Principal Investigators through Fastlane. Inappropriate remarks, if any, may be stricken to indicate that they were disregarded. Proposals were evaluated in accordance with the two National Science Board approved merit review criteria (intellectual merit and broader impacts). In addition panelists were directed to the Program Announcement and were provided with a summary of the competition's major goals and additional required supplementary materials.
+
+
+The external reviews and panel assessments are advisory to the Foundation which also takes into account factors that may affect the overall award portfolio such as budget constraints, diversity of institutions, support among sub-disciplines, geographic distribution or the potential of each award to broaden the participation of individuals from groups traditionally underrepresented in science and engineering.
+
+
+High Competitive: 8
+Competitive: 8
+Low Competitive: 12
+Non-Competitive: 23
+
+
+--------------
+
+
+Panel Summary #1
+
+
+Proposal Number: 1637099
+
+
+Panel Summary:
+In response to the Program Announcement NSF 15-602, "Resource Implementations for Data Intensive Research in the Social Behavioral and Economic Sciences (RIDIR)" 51 projects were submitted for consideration. Principal Investigators of non-compliant applications were given the opportunity to submit necessary revisions. It is estimated that approximately $4.5 million will be invested in awards.
+
+
+Proposals were evaluated by a 15 member mixed in-person - WebEx panel which convened at the National Science Foundation on May 19 and 20, 2016. For each proposal written evaluations were provided by three assigned panel members. (In several cases additional panel members provided reviews.) At the conclusion of each discussion the panel placed the proposal in one of four categories: High Competitive, Competitive, Low Competitive and Non-Competitive. A distribution of proposals by category is provided below. It is likely that limited funds will permit a maximum of ca. 4 awards.
+
+
+Verbatim copies of the evaluations and a summary of the panel discussion are made available to all Principal Investigators through Fastlane. Inappropriate remarks, if any, may be stricken to indicate that they were disregarded. Proposals were evaluated in accordance with the two National Science Board approved merit review criteria (intellectual merit and broader impacts). In addition panelists were directed to the Program Announcement and were provided with a summary of the competition's major goals and additional required supplementary materials.
+
+
+The external reviews and panel assessments are advisory to the Foundation which also takes into account factors that may affect the overall award portfolio such as budget constraints, diversity of institutions, support among sub-disciplines, geographic distribution or the potential of each award to broaden the participation of individuals from groups traditionally underrepresented in science and engineering.
+
+
+High Competitive: 8
+Competitive: 8
+Low Competitive: 12
+Non-Competitive: 23
+
+
+
+
+Proposal summary:
+The project seeks to extend an existing NSF-sponsored video data library - "Databrary." The project will enable video meta data from some video coding tools to be imported into their Databrary video library. Second, the team proposes to expand and extend their interface for user-defined video tags. Third, the system would "allow users to enter, edit, index,... [and] export coding manuals on Databrary." Finally, the project would extend their search capabilities.
+
+
+Intellectual merit:
+This project seeks to advance research in numerous fields that annotate video data by allowing them to archive share and search video together with annotations. The panel was particularly interested in the advanced annotations possibilities. Concerns were raised that the project was largely focused on incremental technological solutions, and that, for example, the format translation issue did not meet the transformative goals of the program. Panelists felt that the project was not fully taking advantage of current CS technology, and would benefit from greater integration of machine learning techniques for video analysis and natural learning processing techniques for textual annotations. The governance plan was sufficient.
+
+
+Broader impacts:
+The panel felt that the research community was the primary beneficiaries of the project.
+
+
+Supplementary documents:
+Panelist felt that the data management, technical and sustainability plans were sufficient.
+
+
+Conclusions:
+The panel was impressed by many aspects of the project and agreed that it would provide a useful platform for researchers. The project was viewed as having the potential to provide an incremental advance for researchers in the field.
+
+
+Panel recommendation:
+___ Highly competitive
+_X_ Competitive
+___ Low competitive
+___ Not competitive
+
+
+The summary was read by the panel, and the panel concurred that the summary accurately reflects the panel discussion.
+
+
+
+
+Panel Recommendation: Competitive
+
+
+-----------
+
+
+Review #1
+
+
+Rating:
+
+
+Fair
+
+
+REVIEW:
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit.
+
+
+(1) The proposed project addresses the need to make different types of data available for analysis. Making these data available will have broad use.
+What the proposal says about "little metadata to be useful" (on page 6) is misguided.
+(2) The project leverages existing resources.
+(3) for the most part, the proposal is fine; however, some section need elaboration. Whey they acknowledge issues with disclosure and dissemination, they do offer any proposed strategies to handle these issues.
+(4) The team is qualified.
+(5) Resources are adequate.
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts.
+
+
+The project should indicate how end-users will deposit data created from videos. These data created from the video could be one of the most valuable resources that the project offers. For video data to be useful for researchers, videos need indexes and extensive metadata.
+
+
+Please evaluate the strengths and
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if
+applicable
+
+
+Summary Statement
+
+
+While video data is worthy of support, this proposal needs to address three issues:
+(1) Enabling researcher to deposit indexes, scales and other data created from the videos.
+(2) Making video data available is insufficient. All data need as much metadata as possible
+(3) The video delivery system needs to handle the sensitive nature of the material securely.
+
+
+---------
+
+
+Review #2
+
+
+Rating:
+
+
+Very Good
+
+
+REVIEW:
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit.
+
+
+The problem is that those who collect data using videos often employ coding schemes and produce coding manuals which are incompatible and thus it is difficult for video data to be shared. Video data is now being collected by an NSF sponsored initiative called Databrary at NYU. The proposal will first, "enable transcripts, annotations, and codes from targeted video coding tools to be imported into and exported from the Databrary video library." Second, "expand and extend Databrary's system (interface) for visualizing user-defined video tags." Third, "allow users to enter, edit, index,...export coding manuals on Databrary." Fourth, "enhance Databrary's search functionality to allow users to search for videos" that meet their needs.
+
+
+What is the potential for the proposed activity to advance knowledge and understanding within its own field or across different fields (Intellectual Merit)
+
+
+This allows researchers to share and reuse videos collected by PIs for research purposes in a much more efficient and effective manner.
+
+
+To what extent do the proposed activities suggest and explore creative, original, or potentially transformative concepts?
+
+
+The proposal seems to be extending work that has been ongoing. There are unique challenges in protecting human subjects that the PIs will seek to address. They also must deal with the sheer size of video datasets. However, it seems that most of these issues have already been solved. The big contribution is now to make coding schemes comparable and shareable among users. That's what this proposal will do.
+
+
+Is the plan for carrying out the proposed activities well-reasoned, well-organized, and based on a sound rationale? Does the plan incorporate a mechanism to assess success?
+
+
+It seems so by making the current system able to import coding schemes from investigators through standard video/audio coding tools which are currently in the market. Also they offer strategies for standardizing coding schemes and making the user interface functional.
+
+
+How well qualified is the individual, team, or institution to conduct the proposed activities?
+
+
+Adolph has experience working with Databrary and has published on these topics. Her previous experience would appear to qualify her for the proposed research. Millman has an MS in computer science and has also published on these topics.
+
+
+Are there adequate resources available to the PI (either at the home institution or through collaborations) to carry out the proposed activities?
+
+
+NYU seems more than capable of supporting this project.
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts.
+
+
+The benefits are primarily for the research community, although "Databrary emposers developmental scientists, especially from institutions with limited resources..."
+
+
+Please evaluate the strengths and
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if
+applicable
+
+
+The technical plan was very impressive, and it is clear that the PIs are well versed in the problems they will face.
+
+
+Like most of these projects that we're reviewing, a future without grants is unclear. However, they at least take a stab at speculating how this might be supported without grants, e.g., create an endowment or charge user fees.
+
+
+The data management plan seems adequate.
+
+
+Summary Statement
+
+
+I thought this was a very worthwhile proposal which explained what it wanted to do very clearly. My only reservation is that a grant would continue work already in progress on Databrary and wouldn't start something new. However, I think the project would add significant value to Databrary.
+
+
+-----
+
+
+Review #3
+
+
+Rating:
+
+
+Very Good
+
+
+REVIEW:
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit.
+
+
+Proposal 1637110, Sharing and Reusing Video Data: Building on
+Human-Applied Tags, seeks to build upon prior work on the NSF funded Databrary archival of digital video to allow users to upload video in multiple file formats with annotations encoded in incompatible and in some cases proprietary schemas.
+
+
+Although the idea of increasing interoperability via with converters or an interchange language is not new, this project nonetheless promises to advance research in numerous fields that annotate video data by allowing them to archive share and search video together with annotations.
+
+
+The significant intellectual challenge of this work comes from the need not only to convert annotation file formats but also to develop a data model that prevents information loss. Annotation schemas differ significantly on multiple dimensions that include: 1) whether the annotation enforces a single timeline or allows overlapping annotation on different tiers and 2) whether these tiers are only related to the timeline of the original media (video) or can also related to other annotations. An early decision to simplify the representation of time with the annotations could have a devastating impact on converted annotations. The PIs seem to realize this and make explicit reference to overlapping annotations and hierarchical arrangement of tiers.
+
+
+The proposal activities are not especially novel or creative but they have great potential to be transformative. The PIs have undertaken the relatively straightforward, possibly thankless, task of studying numerous video annotation schema and developing a new Databrary format that accommodates them. If they are funded and succeed, however, numerous fields that interact with video data will benefit from their efforts.
+
+
+The work plan is well organized, clear and straightforward. There are a couple of things that would have made the plan even more compelling. Although the PIs plan to index transcripts using Solr they might have also considered adding layers of automatically generated annotation that are the output of Human Language Technologies. For example, given an audio track and transcript it is possible for at least some languages to time stamp the audio and identify the very moment in the audio (video) where that language is heard. Second although the authors seem very familiar with the range of video annotation formats I would have liked to see discussion of existing research on the interoperability of annotations, for example the discussion of exchange vocabularies. Finally, I would have liked to see some discussion of automated methods of video analysis for example face detection.
+
+
+The brief evaluation plan relies upon number of users and videos shared as well as user surveys to identify desired features.
+
+
+The PIs, principals in the original Databrary, are clearly qualified to carry out the research they propose. The resources already available to them and those they propose to develop are also adequate to the task.
+
+
+
+
+In the context of the five review elements, please
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts.
+
+
+The proposal has the potential to advance societal outcomes by helping accelerate research progress in a variety of disciplines including those that benefit society. The project could improve its broader impacts by engaging the research communities that work on the computational analysis of video. Such collaborations might include facilitating Databrary access to technology developers and integrating technologies into the Databrary back-end to add layers of information to the archived video.
+
+
+Please evaluate the strengths and
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if
+applicable
+
+
+Summary Statement
+
+
+This is a solid straightforward proposal to improve Databrary by allowing it to interact with numerous video annotation formats. The intellectual challenge comes from the need to develop an internal data model that accommodates all the varying representations of video annotation the PIs intend to import. If successful the project will facilitate video analysis in multiple fields.

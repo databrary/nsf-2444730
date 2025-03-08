@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: ../docs
+  render:
+    - "./*.qmd"
+    - "slides/*.qmd"
+
+book:
+  title: "Databrary NSF 2444730"
+  author: "Rick Gilmore"
+  image: "include/img/databrary-large.png"
+  chapters:
+    - index.qmd
+    - proposal.qmd
+    - planning.qmd
+  repo-url: https://github.com/databrary/nsf-2444730/
+  repo-actions: [edit, issue]
+  repo-subdir: src
+format:
+  html:
+    theme: cosmo
+    number-sections: false
+    date-modified: last-modified
+    fontsize: 1.2em
+    

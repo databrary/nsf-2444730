@@ -3,13 +3,11 @@ title: "Project kick-off"
 subtitle: "2025-03-10"
 ---
 
-# Overview
-
 ![](../include/img/databrary-logo.png)
 
 ---
 
-![Rumsfeld's unknown-unknowns and the Johari window, @Wikipedia-contributors2025-mc](../include/img/ johari-window-wikipedia.png)
+![Donald Rumsfeld's unknown-unknowns and the Johari window, @Wikipedia-contributors2025-mc](../include/img/johari-window-wikipedia.png)
 
 ---
 
@@ -17,8 +15,136 @@ subtitle: "2025-03-10"
 
 ## Agenda
 
+- A brief history
 - Overview of Aims
+- Next steps
+
+# A brief history
+
+---
+
+>Databrary.org is digital, non-commercial, academic data library housed at New York University (NYU). It is the world’s only repository specialized for storing, streaming, and sharing research video and linked identifiable data at scale.
+
+## Milestones
+
+- NSF workshop (2011)
+- [NSF proposal](https://databrary.org/volume/1/folder/9807/file/315) (2012); [NICHD proposal](https://databrary.org/volume/1/folder/9807/file/314) (2013)
+- DB1 go-live March 2014
+- ~~NSF RIDIR proposals [2016](../proposal.qmd#nsf-1637099), [2017](../proposal.qmd#nsf-1738437), [2018](../proposal.qmd#nsf-1731539)~~
+- Alfred P. Sloan, James S. McDonnell Foundation grants
+
+---
+
+- NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) 2018
+- [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) 2020
+- ~~NIMH & NICHD contracts 2024~~
+- ~~NYU TOV TAC 2024~~
+- NSF BCE-2444730
+
+## Analytics
+
+![DB1 growth through Feb 2025](https://databrary.github.io/analytics/weekly_files/figure-html/fig-databrary-inst-invest-timeseries-1.png)
+
+---
+
+![Volume sharing status through Feb 2025](https://databrary.github.io/analytics/weekly_files/figure-html/db-vols-plot-1.png)
+
+---
+
+![Citations through Feb 2025](https://databrary.github.io/analytics/weekly_files/figure-html/db-dv-citations-plot-1.png)
+
+## Values
+
+- As open as possible
+- As closed as necessary
+
+## Vision
+
+- Databrary as *the* leader in open behavioral science
+- Not just a repository
+- Tool for discovery
+
+# Overview of Aims
+
+## Aim 1: Enhanced data discovery
+
+- Why: Accelerate data reuse
+- How:
+  - Enhanced Search
+  - Annotation layers: Search & visualize
+  
+## Aim 2: Custom collections
+
+- Why: 
+  - Make data reuse easier
+  - PLAY Project release
+- How:
+  - Select, clone/copy shared files, sessions, metadata, volumes
+  - Maintain virtual links
+  - AKA "virtual volumes"
+  
+## Aim 3: Workspaces
+
+- Why: 
+  - Active curation [@Soska2021-mh] $>>$ *post hoc*
+  - In progress $\neq$ published/shared
+- How:
+  - Workspace with essential DB2 metadata
+  - Flexible views
+  - Semi-automated curation for sharing
+  
+## Aim 4: Scriptable access
+
+- Why: Transparency & reproducibility
+- How:
+  - DB2 API
+  - Secure authentication
+  - Update [databraryr](https://databrary.github.io/databraryr)
+  - Develop & publish *databrarypy*
+
+## Aim 5: Curation
+
+- Why: Self-curation idiosyncratic
+- How:
+  - Review fully shared, overview only, private
+  - Curate
+  
+---
+
+![](../include/img/Fig-1-Aims-v2.png)
+
+## Timeline
+
+![](../include/img/timeline-2024-07-19v01.png)
+
+## Other opportunities
+
+- Overhaul, polish UI/UX
+- Institutional subscriptions (NYU TOV TAC 2025)
+  - Institution dashboard, analytics
+- databrary.ai/videobrary.ai
+- {zoo,clinic,teach}brary
+
+# Discussion
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- What do we know?
+- What *don't* we know?
+- What's important?
+- What's urgent?
+:::
+::: {.column width=50%}
+![](https://cdn.vertex42.com/ExcelTemplates/Images/eisenhower-matrix-urgent-important-four-quadrants.png){fig-align="center"}
+:::
+::::
 
 # Resources
+
+## Code
+
+These slides were written in [R Markdown](https://rmarkdown.rstudio.com) and rendered using [Quarto](https://quarto.org) to HTML slides using the [reveal.js framework](https://revealjs.com).
 
 ## References

@@ -1,21 +1,37 @@
 project:
-  type: book
+  type: website
   output-dir: ../docs
   render:
     - "./*.qmd"
     - "slides/*.qmd"
 
-book:
+website:
   title: "Databrary NSF 2444730"
-  author: "Rick Gilmore"
-  image: "include/img/databrary-large.png"
-  chapters:
-    - index.qmd
-    - proposal.qmd
-    - planning.qmd
+  navbar:
+    tools:
+    - icon: github
+      menu:
+        - text: Source Code
+          href:  https://code.com
+        - text: Report a Bug
+          href:  https://bugs.com
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - text: "Introduction"
+      href: index.qmd
+    - section: "Background"
+      contents:
+        - proposal.qmd
+        - planning.qmd
+    - section: "Meeting Slides"
+      contents:
+      - slides/2025-03-10-kickoff.qmd
   repo-url: https://github.com/databrary/nsf-2444730/
   repo-actions: [edit, issue]
   repo-subdir: src
+  
 format:
   html:
     theme: cosmo

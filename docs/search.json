@@ -1,12 +1,210 @@
 [
   {
+    "objectID": "slides/2025-03-10-kickoff.html#agenda",
+    "href": "slides/2025-03-10-kickoff.html#agenda",
+    "title": "Project kick-off",
+    "section": "Agenda",
+    "text": "Agenda\n\nA brief history\nOverview of Aims\nNext steps",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#milestones",
+    "href": "slides/2025-03-10-kickoff.html#milestones",
+    "title": "Project kick-off",
+    "section": "Milestones",
+    "text": "Milestones\n\nNSF workshop (2011)\nNSF proposal (2012); NICHD proposal (2013)\nDB1 go-live March 2014\nNSF RIDIR proposals 2016, 2017, 2018\nAlfred P. Sloan, James S. McDonnell Foundation grants",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#analytics",
+    "href": "slides/2025-03-10-kickoff.html#analytics",
+    "title": "Project kick-off",
+    "section": "Analytics",
+    "text": "Analytics\n\nDB1 growth through Feb 2025",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#values",
+    "href": "slides/2025-03-10-kickoff.html#values",
+    "title": "Project kick-off",
+    "section": "Values",
+    "text": "Values\n\nAs open as possible\nAs closed as necessary",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#vision",
+    "href": "slides/2025-03-10-kickoff.html#vision",
+    "title": "Project kick-off",
+    "section": "Vision",
+    "text": "Vision\n\nDatabrary as the leader in open behavioral science\nNot just a repository\nTool for discovery",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#aim-1-enhanced-data-discovery",
+    "href": "slides/2025-03-10-kickoff.html#aim-1-enhanced-data-discovery",
+    "title": "Project kick-off",
+    "section": "Aim 1: Enhanced data discovery",
+    "text": "Aim 1: Enhanced data discovery\n\nWhy: Accelerate data reuse\nHow:\n\nEnhanced Search\nAnnotation layers: Search & visualize",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#aim-2-custom-collections",
+    "href": "slides/2025-03-10-kickoff.html#aim-2-custom-collections",
+    "title": "Project kick-off",
+    "section": "Aim 2: Custom collections",
+    "text": "Aim 2: Custom collections\n\nWhy:\n\nMake data reuse easier\nPLAY Project release\n\nHow:\n\nSelect, clone/copy shared files, sessions, metadata, volumes\nMaintain virtual links\nAKA “virtual volumes”",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#aim-3-workspaces",
+    "href": "slides/2025-03-10-kickoff.html#aim-3-workspaces",
+    "title": "Project kick-off",
+    "section": "Aim 3: Workspaces",
+    "text": "Aim 3: Workspaces\n\nWhy:\n\nActive curation (Soska et al. 2021) \\(&gt;&gt;\\) post hoc\nIn progress \\(\\neq\\) published/shared\n\nHow:\n\nWorkspace with essential DB2 metadata\nFlexible views\nSemi-automated curation for sharing",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#aim-4-scriptable-access",
+    "href": "slides/2025-03-10-kickoff.html#aim-4-scriptable-access",
+    "title": "Project kick-off",
+    "section": "Aim 4: Scriptable access",
+    "text": "Aim 4: Scriptable access\n\nWhy: Transparency & reproducibility\nHow:\n\nDB2 API\nSecure authentication\nUpdate databraryr\nDevelop & publish databrarypy",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#aim-5-curation",
+    "href": "slides/2025-03-10-kickoff.html#aim-5-curation",
+    "title": "Project kick-off",
+    "section": "Aim 5: Curation",
+    "text": "Aim 5: Curation\n\nWhy: Self-curation idiosyncratic\nHow:\n\nReview fully shared, overview only, private\nCurate",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#timeline",
+    "href": "slides/2025-03-10-kickoff.html#timeline",
+    "title": "Project kick-off",
+    "section": "Timeline",
+    "text": "Timeline",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#other-opportunities",
+    "href": "slides/2025-03-10-kickoff.html#other-opportunities",
+    "title": "Project kick-off",
+    "section": "Other opportunities",
+    "text": "Other opportunities\n\nOverhaul, polish UI/UX\nInstitutional subscriptions (NYU TOV TAC 2025)\n\nInstitution dashboard, analytics\n\ndatabrary.ai/videobrary.ai\n{zoo,clinic,teach}brary",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#code",
+    "href": "slides/2025-03-10-kickoff.html#code",
+    "title": "Project kick-off",
+    "section": "Code",
+    "text": "Code\nThese slides were written in R Markdown and rendered using Quarto to HTML slides using the reveal.js framework.",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#references",
+    "href": "slides/2025-03-10-kickoff.html#references",
+    "title": "Project kick-off",
+    "section": "References",
+    "text": "References\n\n\n\n\nSoska, Kasey C, Melody Xu, Sandy L Gonzalez, Orit Herzberg, Catherine S Tamis-LeMonda, Rick O Gilmore, and Karen E Adolph. 2021. “(Hyper)active Data Curation: A Video Case Study from Behavioral Science.” Journal of Escience Librarianship 10 (August). https://doi.org/10.7191/jeslib.2021.1208.\n\n\nWikipedia contributors. 2025. “There Are Unknown Unknowns.” Wikimedia Foundation, Inc. February 11, 2025. https://en.wikipedia.org/wiki/There_are_unknown_unknowns.",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "planning.html",
+    "href": "planning.html",
+    "title": "Planning",
+    "section": "",
+    "text": "This page provides information about project meetings and project planning.",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "planning.html#about",
+    "href": "planning.html#about",
+    "title": "Planning",
+    "section": "",
+    "text": "This page provides information about project meetings and project planning.",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "planning.html#kick-off-2025-03-10",
+    "href": "planning.html#kick-off-2025-03-10",
+    "title": "Planning",
+    "section": "Kick-off 2025-03-10",
+    "text": "Kick-off 2025-03-10\n\nSlides\n\n\nAttendees\n\n\n\n\n\n\nTo be completed\n\n\n\n\n\n\n\n\nAgenda\n\nOverview\n\nWhat and why\n\n\n\nAims/Projects\n\nAim 1: Accelerate data reuse through enhanced data discovery\n\nProject 1.1: Update Databrary’s search engine and user interfaces\nProject 1.2: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers\n\nAim 2: Ease data reuse with custom collections that automatically track provenance across sources\n\nProject 2.1: Create new custom collections of shared videos for reanalysis\n\nAim 3: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing\n\nProject 3.1: Implement “workspaces” for in-progress research projects\nProject 3.2: Update Databrary’s UI to permit flexible views of datasets\n\nAim 4: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions\n\nProject 4.1: Polish, document, and promote Databrary’s API\nProject 4.2: Update databraryr and develop and release a Python package, databrarypy, for accessing Databrary\nProject 4.3: Create and publish sample scripts and introduce the new automation tools to the research community\nProject 4.n1: Update online user guide.\n\nAim 5: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data\n\nProject 5.1: Make existing shared datasets more readily findable\nProject 5.2: Curate unshared datasets and release them for wider use\n\n\n\n\nGovernance\n\nStaffing/roles\nAdvisory board\nCommunications\n\n\n\nTimeline\n\n\n\n\n\n\nFigure 1: Timeline from technical plan in submitted proposal.\n\n\n\n\n\n\nFollow-up\n\n\n\n\n\n\nTo be completed",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "planning.html#footnotes",
+    "href": "planning.html#footnotes",
+    "title": "Planning",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNot in proposal but thematically related to this aim.↩︎",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Databrary NSF 2444730",
     "section": "",
-    "text": "About\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
+    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.\n\n\n\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
+      "Introduction"
     ]
   },
   {
@@ -14,9 +212,9 @@
     "href": "index.html#about",
     "title": "Databrary NSF 2444730",
     "section": "",
-    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.",
+    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.\n\n\n\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
+      "Introduction"
     ]
   },
   {
@@ -26,7 +224,7 @@
     "section": "Principal Investigators",
     "text": "Principal Investigators\nKaren E. Adolph, Ph.D.\nJulius Silver Professor of Psychology and Neural Science\nProfessor of Applied Psychology and Child and Adolescent Psychiatry\nNew York University\nRick O. Gilmore, Ph.D.\nProfessor of Psychology\nThe Pennsylvania State University",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
+      "Introduction"
     ]
   },
   {
@@ -36,7 +234,7 @@
     "section": "Abstract",
     "text": "Abstract\nVideo is a uniquely powerful source of information about human behavior. Video provides data about what people do, documentation about how research is carried out, and provides demonstrations that inform scientists and the public about research results. Researchers across the sciences routinely use video as data, documentation, and demonstration. One such resource is Databrary, the world’s only known large-scale repository specializing in storing and sharing research videos in behavioral sciences. Housed at New York University, Databrary was launched with NSF support. Databrary has removed the most significant barriers to video reuse while reinforcing core ethical principles of informed consent and restricted access to sensitive or identifiable data. Databrary now supports the research and teaching of thousands of scientists across the globe.\nThis project updates and enhances Databrary’s software to make it an even more powerful and useful platform for research and teaching about human behavior. This updated version accelerates the reuse of shared data by making it easier to find target video clips or specific videos. The updates include tools for users to create their own custom collections for research or teaching. Upgraded software make it easier for scientists to organize their data before it is shared widely. Expert staff provide professional curation assistance to make shared data maximally useful to the widest possible audience. Researchers also create software libraries in R and Python that empower users to write their own code to access Databrary. Through substantial improvements to Databrary, the project enables novel, innovative, and data-intensive research about the characteristics and consequences of human behavior using powerful, flexible, affordable tools available in a web browser. The enhancements enrich datasets already shared on Databrary–many funded by taxpayers–thereby increasing the value of prior public investments in research.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
+      "Introduction"
     ]
   },
   {
@@ -46,7 +244,7 @@
     "section": "Aims",
     "text": "Aims\nAim 1: We will deliver on the potential of search as a tool for discovery by seeding an upgraded search engine with time-locked annotations and code books from PLAY and other big-data projects while expanding filtering to include a broad range of demographic variables.\nAim 2: We will create infrastructure to allow users to create custom “virtual” collections of recordings and annotations that automatically track the provenance of each contributing data element to ensure transparency.\nAim 3: We will make Databrary a more flexible tool for collecting, storing, and analyzing data from in-progress projects—prior to sharing with the research community—by creating private, temporary workspaces that can be easily imported into Databrary proper when it is time to share.\nAim 4: We will make video-based behavioral research a leader in research transparency and reproducibility by enhancing access to Databrary API functions via the publication of free open-source scripting libraries in R and Python, alongside sample scripts and other training materials.\nAim 5: We will make existing shared datasets more readily discoverable by improving searchable metadata. We will expand the number and diversity of shared datasets by providing expert curation services to the owners of private datasets and sharing them.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
+      "Introduction"
     ]
   },
   {
@@ -56,37 +254,19 @@
     "section": "",
     "text": "Karen Adolph and Rick Gilmore submitted a proposal to the NSF Human Networks and Data Science Infrastructure (HNDS-I) program on August 1, 2024.\nThe proposal narrative, minus sensitive or detailed financial information is here.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Submitted proposal</span>"
+      "Background",
+      "Submitted proposal"
     ]
   },
   {
-    "objectID": "planning.html",
-    "href": "planning.html",
-    "title": "Planning",
-    "section": "",
-    "text": "About\nThis page provides information about project meetings and project planning.",
+    "objectID": "proposal.html#prior-proposals",
+    "href": "proposal.html#prior-proposals",
+    "title": "Submitted proposal",
+    "section": "Prior proposals",
+    "text": "Prior proposals\nAdolph and Gilmore submitted several unsuccessful proposals to the NSF Research Infrastructure for Data Intensive Research (RIDIR) program. Some of the ideas in those proposals are reflected in the current project.\nIn the spirit of openness and with hopes that these prior efforts might be useful to others, we share them here.\n\nNSF 1637099\n\nProposal\nReviews\n\n\n\nNSF 1738437\n\nProposal\nReviews\n\n\n\nNSF 1731539\n\nProposal\nReviews",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Planning</span>"
-    ]
-  },
-  {
-    "objectID": "planning.html#kick-off-2025-03-10",
-    "href": "planning.html#kick-off-2025-03-10",
-    "title": "Planning",
-    "section": "Kick-off 2025-03-10",
-    "text": "Kick-off 2025-03-10\n\nAttendees\n\n\n\n\n\n\nTo be completed\n\n\n\n\n\n\n\n\nAgenda\n\nOverview\n\nWhat and why\n\n\n\nAims/Projects\n\nAim 1: Accelerate data reuse through enhanced data discovery\n\nProject 1.1: Update Databrary’s search engine and user interfaces\nProject 1.2: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers\n\nAim 2: Ease data reuse with custom collections that automatically track provenance across sources\n\nProject 2.1: Create new custom collections of shared videos for reanalysis\n\nAim 3: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing\n\nProject 3.1: Implement “workspaces” for in-progress research projects\nProject 3.2: Update Databrary’s UI to permit flexible views of datasets\n\nAim 4: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions\n\nProject 4.1: Polish, document, and promote Databrary’s API\nProject 4.2: Update databraryr and develop and release a Python package, databrarypy, for accessing Databrary\nProject 4.3: Create and publish sample scripts and introduce the new automation tools to the research community\nProject 4.n1: Update online user guide.\n\nAim 5: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data\n\nProject 5.1: Make existing shared datasets more readily findable\nProject 5.2: Curate unshared datasets and release them for wider use\n\n\n\n\nGovernance\n\nStaffing/roles\nAdvisory board\nCommunications\n\n\n\nTimeline\n\n\n\n\n\n\nFigure 3.1: Timeline from technical plan in submitted proposal.\n\n\n\n\n\n\nFollow-up\n\n\n\n\n\n\nTo be completed",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Planning</span>"
-    ]
-  },
-  {
-    "objectID": "planning.html#footnotes",
-    "href": "planning.html#footnotes",
-    "title": "Planning",
-    "section": "",
-    "text": "Not in proposal but thematically related to this aim.↩︎",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Planning</span>"
+      "Background",
+      "Submitted proposal"
     ]
   }
 ]

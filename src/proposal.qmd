@@ -5,3 +5,26 @@ title: Submitted proposal
 Karen Adolph and Rick Gilmore submitted a proposal to the NSF [Human Networks and Data Science](https://www.nsf.gov/funding/opportunities/hnds-human-networks-data-science) Infrastructure (HNDS-I) program on August 1, 2024.
 
 The proposal narrative, minus sensitive or detailed financial information is [here](include/pdf/adolph-gilmore-hnds-i-submitted-copy.pdf).
+
+## Prior proposals
+
+Adolph and Gilmore submitted several unsuccessful proposals to the NSF Research Infrastructure for Data Intensive Research (RIDIR) program.
+Some of the ideas in those proposals are reflected in the current project.
+
+In the spirit of openness and with hopes that these prior efforts might be useful to others, we share them here.
+
+### NSF 1637099
+
+- [Proposal](include/pdf/nsf-1637099-proposal.pdf)
+- [Reviews](include/txt/nsf-1637099-reviews.txt)
+
+### NSF 1738437
+
+- [Proposal](include/pdf/nsf-1738427-proposal.pdf)
+- [Reviews](include/txt/nsf-1738437-reviews.txt)
+
+### NSF 1731539
+
+- [Proposal](include/pdf/nsf-1831539-proposal.pdf)
+- [Reviews](include/pdf/nsf-1831539-reviews.pdf)
+

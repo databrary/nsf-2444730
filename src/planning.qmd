@@ -9,6 +9,8 @@ This page provides information about project meetings and project planning.
 
 ## Kick-off 2025-03-10
 
+- [Slides](slides/2025-03-10-kickoff.qmd)
+
 ### Attendees
 
 ::: {.callout-warning}

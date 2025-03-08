@@ -1,0 +1,337 @@
+2017-06-13
+
+Panel Summary #1
+
+Proposal Number: 1738437
+
+Panel Summary: 
+In response to the Program Announcement NSF 15-602, "Resource Implementations for Data Intensive Research in the Social Behavioral and Economic Sciences (RIDIR)" 40 projects were submitted for consideration. Principal Investigators of non-compliant applications were given the opportunity to submit necessary revisions. It is estimated that approximately $4.5 million will be invested in awards. 
+
+Proposals were evaluated by a 17 member mixed in-person - WebEx panel which convened at the National Science Foundation on April 27 and 28, 2017 . For each proposal written evaluations were provided by three assigned panel members. (In several cases additional panel members provided reviews.) At the conclusion of each discussion the panel placed the proposal in one of four categories: High Competitive, Competitive, Low Competitive and Non-Competitive. A distribution of proposals by category is provided below. It is likely that limited funds will permit a maximum of ca. 4 awards. 
+
+Verbatim copies of the evaluations and a summary of the panel discussion are made available to all Principal Investigators through Fastlane. Inappropriate remarks, if any, may be stricken to indicate that they were disregarded. Proposals were evaluated in accordance with the two National Science Board approved merit review criteria (intellectual merit and broader impacts). In addition panelists were directed to the Program Announcement and were provided with a summary of the competition's major goals and additional required supplementary materials. 
+
+The external reviews and panel assessments are advisory to the Foundation which also takes into account factors that may affect the overall award portfolio such as budget constraints, diversity of institutions, support among sub-disciplines, geographic distribution or the potential of each award to broaden the participation of individuals from groups traditionally underrepresented in science and engineering. 
+
+High Competitive: 7 
+Competitive: 8 
+Low Competitive: 10 
+Non-Competitive: 15 
+
+
+1. Proposal Summary: 
+This proposal seeks to integrate two existing tools: Datavyu and Databrary. Datavu is a tool for classifying and coding videos, and Databrary is a database of videos. Integrating these systems themselves would allow replication and the repurposing of existing videos and code for future research, such that future researchers could bring a new question to bear on the systems and instead of having to collect all data from scratch, they could exploit the new integrated existing technologies and metaanalyze existing data. 
+
+2. Intellectual merit: 
+The proposal is relatively strong on intellectual merit. Coded video is very valuable to researchers, and it is very labor intensive to code it. The team is well qualified and has a proven track record with the existing databases that there is already a large user base for. Thus, this is essentially a continuation of existing projects. The main concern is, what is the incremental value of integrating Datavyu and Databrary? As both of these already exist, the value added of integrating them seems to be updating the old code (Java). If Datavyu and Databrary are integrated, in the spirit of the RIDIR proposal, sharing among users will be easy because it will be easier to code in the proposed tools than to code somewhere else. 
+
+Integration of Datavyu and Databrary is untested and therefore it is uncertain whether there will be a user base for the integrated systems. However, as there is already a large user base for each tool individually, there is likely one for the proposed resource. 
+
+Governance: 
+The proposal indicated it addressed human subject issues, but the panel thought the proposal could provide more detail on this point. What are the implications of repurposing existing data on an individual who consented to participating in one project? Granted, these questions of ongoing consent, data repurposing, and integration are more questions for already existing Datavyu and Databrary, rather than for the proposed integration itself, as there is an existing protocol in place already. 
+
+3. Broader impacts: 
+The committee have some concern about the broader impacts. Specifically, because both Datavye and Databrary already exist, it is not clear how great the marginal impact will be from an integration between the two. While the committee sees the value of integration, it feels that the value added, and hence broader impact, is low compared to many of the other proposals. 
+
+4. Supplementary documents: 
+The data management plan, postdoctoral mentoring plan, technical plan, and sustainability plan are all strong. 
+
+5. Conclusions: 
+This is a competitive resource and the team is well-equipped to execute the project. 
+
+
+6. Panel recommendation: 
+___ Highly competitive 
+X Competitive 
+___ Low competitive 
+___ Not competitive 
+
+
+The summary was read by the panel, and the panel concurred that the summary accurately reflects the panel discussion.
+
+
+Panel Recommendation: Competitive
+
+-------------------
+
+Review #1
+
+
+
+Proposal Number:
+
+ 
+
+1738437
+
+NSF Program:
+
+ 
+
+Data Infrastructure
+
+Principal Investigator:
+
+ 
+
+Gilmore, Rick O
+
+Proposal Title:
+
+ 
+
+Collaborative Research: RIDIR -- Forging an integrated ecosystem for behavioral discovery with Datavyu and Databrary
+
+Rating:
+
+ 
+
+Good
+
+
+
+
+REVIEW:
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit. 
+
+This proposal aims to upgrade the Datavyu software to version 2.0 and provide integration between Datavyu and Databrary. These are two video research tools, the first allows for coding of research videos and the second allows for the storage and sharing of those videos. Both of these tools are currently widely used. Integrating these two tools and making each more user friendly has the potential to advance knowledge significantly. The reason is that both of these tools are already used, so what this project does is make things easier on the curation side so researchers can focus more effort on the discovery side and bring larger and more complex video stimuli to bear. 
+The proposal is somewhat limited in originality as it is an upgrade to an existing system. However, using video stimuli is not currently as simple as one might hope, so making such use easier does have the potential to free up bandwidth for more original thinking. 
+The plan is well conceived as the researcher team has already developed and maintained version 1.0 of the software, they are intimately familiar with not only the process of development, but also the specific problem already existing in the system. 
+The team is appropriate to the task as they are the curators of version 1.0. 
+As the team has already demonstrated the resources to develop and maintain version 1.0, they clearly have the recourses available for version 2.0. 
+
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts. 
+
+It is not clear what broader impacts will be realized as this is an upgrade. However, there is already a user base to be impacted. It is clear that someone will use this. It is also reasonable to believe that enhanced sharing capabilities both of videos and of their associated data will encourage more sharing within the community. I think the impacts will be clear and obvious even if they are not particularly broad. 
+
+Please evaluate the strengths and 
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if 
+applicable 
+
+
+
+Summary Statement 
+
+This is an upgrade and integration of existing successful research software. It will have clear impacts on video researchers and enhance the ability to do such research. The impact may be incremental rather than transformational, and may be small outside of video research, but it will be clearly felt and appreciated by those in the field.
+
+-------------
+
+Review #2
+
+
+
+Proposal Number:
+
+ 
+
+1738437
+
+NSF Program:
+
+ 
+
+Data Infrastructure
+
+Principal Investigator:
+
+ 
+
+Gilmore, Rick O
+
+Proposal Title:
+
+ 
+
+Collaborative Research: RIDIR -- Forging an integrated ecosystem for behavioral discovery with Datavyu and Databrary
+
+Rating:
+
+ 
+
+Multiple Rating: (Very Good/Good)
+
+
+
+
+REVIEW:
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit. 
+
+The proposed project is an extension, enhancement, and integration project around the existing databrary resource in an attempt to improve its ability to host research videos and coding data and standards for scientific reuse. 
+
+Fundamentally, this project aligns directly with key concepts in open and replicable science, and specifically with key questions around making data available for replication and reuse. In particular, the investigator team argues that it needs to substantially lower the barriers to such sharing behaviors, and that an effective way to do so is to situate unshared research within this public resource (by providing high-quality hosting and integrated analysis tools) so that subsequent sharing is a simply selection rather than a costly action. 
+
+In general, this is a promising approach, though there are a number of concerns and weaknesses I see in some of the details: 
+
+* First and foremost, it is unclear that trying to merge research videos of human subjects with research videos of stimuli or prompts makes much sense. As the proposal shows, these have very different access issues, different privacy issues, and fairly little in common. It is unclear why they are being placed in the same repository rather than being (at least logically) separated. 
+
+* Second, it is unclear that the informed consent issues are fully addressed. What provisions are there for the right to withdraw consent at a future time? Can subjects be meaningfully educated about the potential risks of being in the repository? There is also a key issue that some of the research that would be done using these videos is not human subjects research (e.g., any study that looks at properties of the underlying research study or video, not the subject or behavior or a study that simply looks at the surface demographics of research participants such as evident race and sex). How will the review process address cases beyond IRB jurisdiction? 
+
+* Third, the key question behind whether this work is worth funding is whether investigators will really change their behaviors based on the enhancements to the tools. I think there is some evidence that this is already working (there is much contributed to Databrary), but whether these enhancements will make a different is unclear. 
+
+* I would have liked to see some discussion of integration with automatic transcription tools and other research tools that might assist (and tilt researchers towards use, much as many videos are posted on Youtube simply to get the closed captioning). 
+
+* It would also be useful to think about enhancing the metadata in the databrary; as more and more video is present, it will be harder to determine which videos may be relevant for a particular re-use. 
+
+All together, the database and tools are worthwhile; the key question is whether these enhancements are the right way to invest in extending them. 
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts. 
+
+This is a project that already reaches a large set of researchers (currently 561 researchers at over 300 institutions) and has shown broader impact. Investing in its enhancement seems to be a worthwhile way to continue serving that community. 
+
+It does seem that many potential broader impacts are neglected here, and could be incorporated with some effort. The budget is top-heavy, depending entirely on senior personnel and staff with no training of students in the process. There is nothing evident done that would promote diversity through recruiting underrepresented groups. 
+
+Please evaluate the strengths and 
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if 
+applicable 
+
+This project has a thoughtful sustainability plan, and a good technical plan. Of the proposals I've reviewed, it is one of the most low-risk in terms of the team's ability to actually deliver, and would have clear impact. It meets the criteria for RIDIR. 
+
+There appears to be substantial community input on the resource already, if not fully documented in the proposal. 
+
+Summary Statement 
+
+This proposal to extend and integrate tools for video sharing and coding has several worthwhile elements and a strong community of users. It would be a worthwhile project to support to advance open and replicable science.
+
+----------
+
+Review #3
+
+
+
+Proposal Number:
+
+ 
+
+1738437
+
+NSF Program:
+
+ 
+
+Data Infrastructure
+
+Principal Investigator:
+
+ 
+
+Gilmore, Rick O
+
+Proposal Title:
+
+ 
+
+Collaborative Research: RIDIR -- Forging an integrated ecosystem for behavioral discovery with Datavyu and Databrary
+
+Rating:
+
+ 
+
+Good
+
+
+
+
+REVIEW:
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit. 
+
+The team has strong support for video collection for developmental science (NICHD, NSF) and seeks to extend to SBE 
+1. what are the questions video uniquely informs in SBE? What is similar to and different from developmental science? Video may be useful in several realms- but what precisely this method does to "accelerate discovery" in SBE is not delineated. 
+2. developing coding and training schemes can be useful 
+3/4. the plan, which lacks SBE input and could use a better explanation of the programming and technical support staff. 
+5. Resources appear adequate for the data tool but scant attention to outreach 
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts. 
+
+1. What is the need this intervention addresses? A case can be made- but is not in the proposal. 
+2. Systematic use of video is an underdeveloped area and can be useful- but without much SBE input on the project, I wonder. 
+3. Timeline has few concrete deliverables delineated 
+4. The team is clearly onto something in developmental science, but the lack of SBE collaborators is troublesome. 
+5. seems fine 
+
+Please evaluate the strengths and 
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if 
+applicable 
+
+see comments above 
+
+Summary Statement 
+
+Skilled researchers seek to increase the use of video, develop coding methods, and encourage the use of video data. Experience with OSF etc. is convincing- but there is little to no effort placed on explaining the ways in which video data is uniquely transformative to SBE issues and research fields.
+
+----------
+
+Review #4
+
+
+
+Proposal Number:
+
+ 
+
+1738437
+
+NSF Program:
+
+ 
+
+Data Infrastructure
+
+Principal Investigator:
+
+ 
+
+Gilmore, Rick O
+
+Proposal Title:
+
+ 
+
+Collaborative Research: RIDIR -- Forging an integrated ecosystem for behavioral discovery with Datavyu and Databrary
+
+Rating:
+
+ 
+
+Very Good
+
+
+
+
+REVIEW:
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to intellectual merit. 
+
+Strengths 
+Video is both a powerful tool for many social and behavioral sciences and is also a headache for researchers. The strength to this project is that it provides a way for researchers across many areas to share videos and coding schemes through the proposed repository. It builds on an already successful system, updating it. 
+
+In the context of the five review elements, please 
+evaluate the strengths and weaknesses of the proposal with respect to broader impacts. 
+
+Strengths 
+This helps expand the open data movement within the use of video research techniques. It thus can be beneficial to many social and behavioral science endeavors. 
+
+Please evaluate the strengths and 
+weaknesses of the proposal with respect to any additional solicitation-specific review criteria, if 
+applicable 
+
+Strengths 
+Designed to make the included videos searchable through metadata. This should enhance their usability. Build API so that the system can be accessible for those more technically inclined. Already have an established method for dealing with privacy and protections. 
+
+Weakness 
+The sustainability plan is well thought out but currently would be reliant on endowment that is yet to be established. 
+
+Summary Statement 
+
+This would bring video and video coding into an expanded open data role. It builds on top of an established project, updating the code, accessibility, and the coding methods across individuals.
+
