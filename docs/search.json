@@ -15,7 +15,7 @@
     "href": "slides/2025-03-10-kickoff.html#milestones",
     "title": "Project kick-off",
     "section": "Milestones",
-    "text": "Milestones\n\nNSF workshop (2011)\nNSF proposal (2012); NICHD proposal (2013)\nDB1 go-live March 2014\nNSF RIDIR proposals 2016, 2017, 2018\nAlfred P. Sloan, James S. McDonnell Foundation grants",
+    "text": "Milestones\n\nNSF workshop (2011)\nNSF (2012-2018); NICHD proposal (2013-201)\nDB1 go-live (March 2014)\nNSF RIDIR proposals 2016, 2017, 2018\nAlfred P. Sloan Foundation (2017), James S. McDonnell Foundation (2018) grants",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -48,7 +48,7 @@
     "href": "slides/2025-03-10-kickoff.html#vision",
     "title": "Project kick-off",
     "section": "Vision",
-    "text": "Vision\n\nDatabrary as the leader in open behavioral science\nNot just a repository\nTool for discovery",
+    "text": "Vision\n\n\nVideo an unparalleled source of data, documentation, and demonstration\nDatabrary as the leader in open behavioral science\nTool for discovery",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -125,7 +125,29 @@
     "href": "slides/2025-03-10-kickoff.html#other-opportunities",
     "title": "Project kick-off",
     "section": "Other opportunities",
-    "text": "Other opportunities\n\nOverhaul, polish UI/UX\nInstitutional subscriptions (NYU TOV TAC 2025)\n\nInstitution dashboard, analytics\n\ndatabrary.ai/videobrary.ai\n{zoo,clinic,teach}brary",
+    "text": "Other opportunities\n\nOverhaul, polish UI/UX\nInstitutional subscriptions (NYU TOV TAC 2025)\n\nInstitution dashboard, analytics\n\ndatabrary.ai/videobrary.ai\n{zoo,clinic,teach}brary\nWeb-based video annotation",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#known-knowns",
+    "href": "slides/2025-03-10-kickoff.html#known-knowns",
+    "title": "Project kick-off",
+    "section": "Known-knowns",
+    "text": "Known-knowns\n\n\n\n\n\n\n\n\n\nUrgent\nNot Urgent\n\n\n\n\nImportant\nUpload; search; Montrose\ncustom collections1; databrary{r,py}; curation\n\n\nNot important\nUI cleanup\n\n\n\n\nCritical for PLAY",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#also-importantnot-urgent",
+    "href": "slides/2025-03-10-kickoff.html#also-importantnot-urgent",
+    "title": "Project kick-off",
+    "section": "Also important/not urgent",
+    "text": "Also important/not urgent\n\nInstitutional subscriptions\nWorkspaces \\(\\rightarrow\\) shared volumes\n\nSee RIDIR 2018 Aim 2\n\nSpreadsheets: Use cases, interfaces, prior work\n\nBrain imaging data structure (BIDS); NSF OAC-2032713\n\nSearching, indexing, & visualizing annotation files\n\nSee RIDIR 2016 Aims 1, 2\nWork with TalkBank.org",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -200,9 +222,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Databrary NSF 2444730",
+    "title": "Introduction",
     "section": "",
-    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.\n\n\n\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
+    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.",
     "crumbs": [
       "Introduction"
     ]
@@ -210,9 +232,9 @@
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
-    "title": "Databrary NSF 2444730",
-    "section": "",
-    "text": "Figure 1: Graphic summary of the main aims of the project and their relationship to the phases of scientific research.\n\n\n\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
+    "title": "Introduction",
+    "section": "About",
+    "text": "About\nThis site provides supporting documentation for a project funded by the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730. The project period is March 1, 2025 to February 28, 2027.\nWe are grateful to U.S. taxpayers for their support of scientific research.",
     "crumbs": [
       "Introduction"
     ]
@@ -220,7 +242,7 @@
   {
     "objectID": "index.html#principal-investigators",
     "href": "index.html#principal-investigators",
-    "title": "Databrary NSF 2444730",
+    "title": "Introduction",
     "section": "Principal Investigators",
     "text": "Principal Investigators\nKaren E. Adolph, Ph.D.\nJulius Silver Professor of Psychology and Neural Science\nProfessor of Applied Psychology and Child and Adolescent Psychiatry\nNew York University\nRick O. Gilmore, Ph.D.\nProfessor of Psychology\nThe Pennsylvania State University",
     "crumbs": [
@@ -230,7 +252,7 @@
   {
     "objectID": "index.html#abstract",
     "href": "index.html#abstract",
-    "title": "Databrary NSF 2444730",
+    "title": "Introduction",
     "section": "Abstract",
     "text": "Abstract\nVideo is a uniquely powerful source of information about human behavior. Video provides data about what people do, documentation about how research is carried out, and provides demonstrations that inform scientists and the public about research results. Researchers across the sciences routinely use video as data, documentation, and demonstration. One such resource is Databrary, the world’s only known large-scale repository specializing in storing and sharing research videos in behavioral sciences. Housed at New York University, Databrary was launched with NSF support. Databrary has removed the most significant barriers to video reuse while reinforcing core ethical principles of informed consent and restricted access to sensitive or identifiable data. Databrary now supports the research and teaching of thousands of scientists across the globe.\nThis project updates and enhances Databrary’s software to make it an even more powerful and useful platform for research and teaching about human behavior. This updated version accelerates the reuse of shared data by making it easier to find target video clips or specific videos. The updates include tools for users to create their own custom collections for research or teaching. Upgraded software make it easier for scientists to organize their data before it is shared widely. Expert staff provide professional curation assistance to make shared data maximally useful to the widest possible audience. Researchers also create software libraries in R and Python that empower users to write their own code to access Databrary. Through substantial improvements to Databrary, the project enables novel, innovative, and data-intensive research about the characteristics and consequences of human behavior using powerful, flexible, affordable tools available in a web browser. The enhancements enrich datasets already shared on Databrary–many funded by taxpayers–thereby increasing the value of prior public investments in research.",
     "crumbs": [
@@ -240,7 +262,7 @@
   {
     "objectID": "index.html#aims",
     "href": "index.html#aims",
-    "title": "Databrary NSF 2444730",
+    "title": "Introduction",
     "section": "Aims",
     "text": "Aims\nAim 1: We will deliver on the potential of search as a tool for discovery by seeding an upgraded search engine with time-locked annotations and code books from PLAY and other big-data projects while expanding filtering to include a broad range of demographic variables.\nAim 2: We will create infrastructure to allow users to create custom “virtual” collections of recordings and annotations that automatically track the provenance of each contributing data element to ensure transparency.\nAim 3: We will make Databrary a more flexible tool for collecting, storing, and analyzing data from in-progress projects—prior to sharing with the research community—by creating private, temporary workspaces that can be easily imported into Databrary proper when it is time to share.\nAim 4: We will make video-based behavioral research a leader in research transparency and reproducibility by enhancing access to Databrary API functions via the publication of free open-source scripting libraries in R and Python, alongside sample scripts and other training materials.\nAim 5: We will make existing shared datasets more readily discoverable by improving searchable metadata. We will expand the number and diversity of shared datasets by providing expert curation services to the owners of private datasets and sharing them.",
     "crumbs": [
@@ -250,23 +272,23 @@
   {
     "objectID": "proposal.html",
     "href": "proposal.html",
-    "title": "Submitted proposal",
+    "title": "Proposal",
     "section": "",
     "text": "Karen Adolph and Rick Gilmore submitted a proposal to the NSF Human Networks and Data Science Infrastructure (HNDS-I) program on August 1, 2024.\nThe proposal narrative, minus sensitive or detailed financial information is here.",
     "crumbs": [
       "Background",
-      "Submitted proposal"
+      "Proposal"
     ]
   },
   {
     "objectID": "proposal.html#prior-proposals",
     "href": "proposal.html#prior-proposals",
-    "title": "Submitted proposal",
+    "title": "Proposal",
     "section": "Prior proposals",
-    "text": "Prior proposals\nAdolph and Gilmore submitted several unsuccessful proposals to the NSF Research Infrastructure for Data Intensive Research (RIDIR) program. Some of the ideas in those proposals are reflected in the current project.\nIn the spirit of openness and with hopes that these prior efforts might be useful to others, we share them here.\n\nNSF 1637099\n\nProposal\nReviews\n\n\n\nNSF 1738437\n\nProposal\nReviews\n\n\n\nNSF 1731539\n\nProposal\nReviews",
+    "text": "Prior proposals\nAdolph and Gilmore submitted several unsuccessful proposals to the NSF Research Infrastructure for Data Intensive Research (RIDIR) program. Some of the ideas in those proposals are reflected in the current project.\nIn the spirit of openness and with hopes that these prior efforts might be useful to others, we share them here.\n\nNSF 1637099\n\nProposal\nReviews\n\n\n\nNSF 1738437\n\nProposal\nReviews\n\n\n\nNSF 1831539\n\nProposal\nReviews",
     "crumbs": [
       "Background",
-      "Submitted proposal"
+      "Proposal"
     ]
   }
 ]

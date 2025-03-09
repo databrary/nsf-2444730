@@ -28,14 +28,29 @@ website:
     - section: "Meeting Slides"
       contents:
       - slides/2025-03-10-kickoff.qmd
-  repo-url: https://github.com/databrary/nsf-2444730/
   repo-actions: [edit, issue]
   repo-subdir: src
-  
+  repo-url: https://github.com/databrary/nsf-2444730/
+  page-footer:
+    left: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    center: "This material is based on work supported by the National Science Foundation under grant 2444730. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
+    right: "Built with [Quarto](https://quarto.org/)"
+    background: light
+
 format:
   html:
     theme: cosmo
     number-sections: false
-    date-modified: last-modified
-    fontsize: 1.2em
+    # fontsize: 1.2em
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    bibliography: include/bib/nsf-2444730.bib
+    csl: include/bib/apa.csl
+    citations-hover: true
+    footnotes-hover: true
+    html-math-method: mathjax
+    code-fold: true
+    code-tools: true
+    lightbox: true
     
