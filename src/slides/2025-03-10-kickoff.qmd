@@ -27,24 +27,25 @@ subtitle: "2025-03-10"
 
 <!-- ## Milestones -->
 
-<!-- - NSF workshop (2011) -->
-<!-- - [NSF](https://databrary.org/volume/1/folder/9807/file/315) (2012-2018); [NICHD proposal](https://databrary.org/volume/1/folder/9807/file/314) (2013-201) -->
-<!-- - DB1 go-live (March 2014) -->
+- NSF workshop (2011)
+- [NSF](https://databrary.org/volume/1/folder/9807/file/315) (2012-2018); [NICHD proposal](https://databrary.org/volume/1/folder/9807/file/314) (2013-201)
+- DB1 go-live (March 2014)
 <!-- - *NSF RIDIR proposals [2016](../proposal.qmd#nsf-1637099), [2017](../proposal.qmd#nsf-1738437), [2018](../proposal.qmd#nsf-1731539)* -->
-<!-- - Alfred P. Sloan Foundation (2017), James S. McDonnell Foundation (2018) grants -->
+- Alfred P. Sloan Foundation (2017), James S. McDonnell Foundation (2018) grants
 
-<!-- --- -->
+---
 
-<!-- - NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) (2018-) -->
-<!-- - [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) (2020-2023) -->
+- NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) (2018-)
+- [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) (2020-2023)
 <!-- - ~~NIH Zoobrary proposal (2023)~~ -->
-<!-- - NYU internal award (2023) -->
+- NYU internal award (2023, 2024)
 <!-- - ~~NIMH & NICHD contracts (2024)~~ -->
 <!-- - ~~NYU TOV TAC (2024)~~ -->
-<!-- - Gates Foundation [National Tutoring Observatory (NTO)](https://nationaltutoringobservatory.org) subaward (2025-) -->
-<!-- - NSF BCE-2444730 (2025-2027) -->
+- Gates Foundation [National Tutoring Observatory (NTO)](https://nationaltutoringobservatory.org) subaward (2025-)
+- NSF BCE-2444730 (2025-2027)
+- DB2 go-live (March 2025)
 
-## Analytics
+---
 
 ![DB1 growth through Feb 2025](https://databrary.github.io/analytics/weekly_files/figure-html/fig-databrary-inst-invest-timeseries-1.png)
 
@@ -63,11 +64,9 @@ subtitle: "2025-03-10"
 
 ## Vision
 
-::: {.incremental}
-- Video an unparalleled source of data, documentation, and demonstration
-- Databrary as *the* leader in open behavioral science
-- Tool for discovery
-:::
+- Video is an unparalleled source of data, documentation, and demonstration
+- Make Databrary *the* leader in open behavioral science
+- A tool for discovery
 
 # Overview of Aims
 
@@ -75,7 +74,7 @@ subtitle: "2025-03-10"
 
 - Why: Accelerate data reuse
 - How:
-  - Enhanced Search
+  - Enhanced search
   - Annotation layers: Search & visualize
   
 ## Aim 2: Custom collections
