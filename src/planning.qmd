@@ -37,7 +37,6 @@ This page provides information about project meetings and project planning.
     - *Project 4.1*: Polish, document, and promote Databrary’s API
     - *Project 4.2*: Update [databraryr](https://github.com/databrary/databraryr) and develop and release a Python package, databrarypy, for accessing Databrary
     - *Project 4.3*: Create and publish sample scripts and introduce the new automation tools to the research community
-    - *Project 4.n^[Not in proposal but thematically related to this aim.]*: Update online user [guide](https://databrary.github.io/guide).
 - **Aim 5**: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data
     - *Project 5.1*: Make existing shared datasets more readily findable
     - *Project 5.2*: Curate unshared datasets and release them for wider use
