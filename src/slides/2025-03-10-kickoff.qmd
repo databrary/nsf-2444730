@@ -25,24 +25,24 @@ subtitle: "2025-03-10"
 
 >Databrary.org is a digital, non-commercial, academic data library housed at New York University (NYU). It is the world’s only repository specialized for storing, streaming, and sharing research video and linked identifiable data at scale.
 
-## Milestones
+<!-- ## Milestones -->
 
-- NSF workshop (2011)
-- [NSF](https://databrary.org/volume/1/folder/9807/file/315) (2012-2018); [NICHD proposal](https://databrary.org/volume/1/folder/9807/file/314) (2013-201)
-- DB1 go-live (March 2014)
-- ~~NSF RIDIR proposals [2016](../proposal.qmd#nsf-1637099), [2017](../proposal.qmd#nsf-1738437), [2018](../proposal.qmd#nsf-1731539)~~
-- Alfred P. Sloan Foundation (2017), James S. McDonnell Foundation (2018) grants
+<!-- - NSF workshop (2011) -->
+<!-- - [NSF](https://databrary.org/volume/1/folder/9807/file/315) (2012-2018); [NICHD proposal](https://databrary.org/volume/1/folder/9807/file/314) (2013-201) -->
+<!-- - DB1 go-live (March 2014) -->
+<!-- - *NSF RIDIR proposals [2016](../proposal.qmd#nsf-1637099), [2017](../proposal.qmd#nsf-1738437), [2018](../proposal.qmd#nsf-1731539)* -->
+<!-- - Alfred P. Sloan Foundation (2017), James S. McDonnell Foundation (2018) grants -->
 
----
+<!-- --- -->
 
-- NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) (2018-)
-- [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) (2020-2023)
-- ~~NIH Zoobrary proposal (2023)~~
-- NYU internal award (2023)
-- ~~NIMH & NICHD contracts (2024)~~
-- ~~NYU TOV TAC (2024)~~
-- Gates Foundation [National Tutoring Observatory (NTO)](https://nationaltutoringobservatory.org) subaward (2025-)
-- NSF BCE-2444730 (2025-2027)
+<!-- - NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) (2018-) -->
+<!-- - [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) (2020-2023) -->
+<!-- - ~~NIH Zoobrary proposal (2023)~~ -->
+<!-- - NYU internal award (2023) -->
+<!-- - ~~NIMH & NICHD contracts (2024)~~ -->
+<!-- - ~~NYU TOV TAC (2024)~~ -->
+<!-- - Gates Foundation [National Tutoring Observatory (NTO)](https://nationaltutoringobservatory.org) subaward (2025-) -->
+<!-- - NSF BCE-2444730 (2025-2027) -->
 
 ## Analytics
 
@@ -161,9 +161,9 @@ subtitle: "2025-03-10"
   - See [RIDIR 2018](../proposal.qmd#nsf-1831539) Aim 2
 - Spreadsheets: Use cases, interfaces, prior work
   - [Brain imaging data structure (BIDS)](https://bids.neuroimaging.io); [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713)
-- Searching, indexing, & visualizing annotation files
+- Indexing, searching, & visualizing annotation files
   - See [RIDIR 2016](../proposal.qmd#nsf-1637099) Aims 1, 2
-  - Work with [TalkBank.org](https://talkbank.org)
+  - Work with [TalkBank.org](https://talkbank.org) on [CHAT](https://talkbank.org/manuals/CHAT.html) integration?
   
 # Resources
 
