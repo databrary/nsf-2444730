@@ -81,7 +81,7 @@
     "href": "slides/2025-03-10-kickoff.html#aim-3-workspaces",
     "title": "Project kick-off",
     "section": "Aim 3: Workspaces",
-    "text": "Aim 3: Workspaces\n\nWhy:\n\nActive curation (Soska et al. 2021) \\(&gt;&gt;\\) post hoc\nIn progress \\(\\neq\\) published/shared\n\nHow:\n\nWorkspace with essential DB2 metadata\nFlexible views\nSemi-automated curation for sharing",
+    "text": "Aim 3: Workspaces\n\nWhy:\n\nActive curation (Soska et al., 2021) \\(&gt;&gt;\\) post hoc\nIn progress \\(\\neq\\) published/shared\n\nHow:\n\nWorkspace with essential DB2 metadata\nFlexible views\nSemi-automated curation for sharing",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -136,7 +136,7 @@
     "href": "slides/2025-03-10-kickoff.html#known-knowns",
     "title": "Project kick-off",
     "section": "Known-knowns",
-    "text": "Known-knowns\n\n\n\n\n\n\n\n\n\nUrgent\nNot Urgent\n\n\n\n\nImportant\nUpload; search; Montrose\ncustom collections1; databrary{r,py}; curation\n\n\nNot important\nUI cleanup\n\n\n\n\nCritical for PLAY",
+    "text": "Known-knowns\n\n\n\n\n\n\n\n\n\nUrgent\nNot Urgent\n\n\n\n\nImportant\nUpload; search; Montrose\ncustom collections1; databrary{r,py}; curation\n\n\nNot important\nUI cleanup",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -202,7 +202,7 @@
     "href": "planning.html#kick-off-2025-03-10",
     "title": "Planning",
     "section": "Kick-off 2025-03-10",
-    "text": "Kick-off 2025-03-10\n\nSlides\n\n\nAttendees\n\n\n\n\n\n\nTo be completed\n\n\n\n\n\n\n\n\nAgenda\n\nOverview\n\nWhat and why\n\n\n\nAims/Projects\n\nAim 1: Accelerate data reuse through enhanced data discovery\n\nProject 1.1: Update Databrary’s search engine and user interfaces\nProject 1.2: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers\n\nAim 2: Ease data reuse with custom collections that automatically track provenance across sources\n\nProject 2.1: Create new custom collections of shared videos for reanalysis\n\nAim 3: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing\n\nProject 3.1: Implement “workspaces” for in-progress research projects\nProject 3.2: Update Databrary’s UI to permit flexible views of datasets\n\nAim 4: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions\n\nProject 4.1: Polish, document, and promote Databrary’s API\nProject 4.2: Update databraryr and develop and release a Python package, databrarypy, for accessing Databrary\nProject 4.3: Create and publish sample scripts and introduce the new automation tools to the research community\n\nAim 5: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data\n\nProject 5.1: Make existing shared datasets more readily findable\nProject 5.2: Curate unshared datasets and release them for wider use\n\n\n\n\nGovernance\n\nStaffing/roles\nAdvisory board\nCommunications\n\n\n\nTimeline\n\n\n\n\n\n\nFigure 1: Timeline from technical plan in submitted proposal.\n\n\n\n\n\n\nFollow-up\n\n\n\n\n\n\nTo be completed",
+    "text": "Kick-off 2025-03-10\n\nSlides\n\n\nAttendees\n\nDatabrary: Rick Gilmore, Karen Adolph, Kasey Soska, Andrea Seisler\nNYU IT: Ken Yelton, Julian Quintero\nMontrose Software: Olha Hnatiuk, Miroslaw Syzdek\n\n\n\nAgenda\n\nOverview\n\nWhat and why\n\n\n\nAims/Projects\n\nAim 1: Accelerate data reuse through enhanced data discovery\n\nProject 1.1: Update Databrary’s search engine and user interfaces\nProject 1.2: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers\n\nAim 2: Ease data reuse with custom collections that automatically track provenance across sources\n\nProject 2.1: Create new custom collections of shared videos for reanalysis\n\nAim 3: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing\n\nProject 3.1: Implement “workspaces” for in-progress research projects\nProject 3.2: Update Databrary’s UI to permit flexible views of datasets\n\nAim 4: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions\n\nProject 4.1: Polish, document, and promote Databrary’s API\nProject 4.2: Update databraryr and develop and release a Python package, databrarypy, for accessing Databrary\nProject 4.3: Create and publish sample scripts and introduce the new automation tools to the research community\n\nAim 5: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data\n\nProject 5.1: Make existing shared datasets more readily findable\nProject 5.2: Curate unshared datasets and release them for wider use\n\n\n\n\nGovernance\n\nStaffing/roles\nAdvisory board\nCommunications\n\n\n\nTimeline\n\n\n\n\n\n\nFigure 1: Timeline from technical plan in submitted proposal.\n\n\n\n\n\n\nFollow-up\n\nReturn to two-week sprints, starting 2025-03-11\nPlan to focus on DB2.0 deliverables first\nBegin planning Custom Collections (Aim 2)",
     "crumbs": [
       "Background",
       "Planning"
@@ -289,6 +289,28 @@
     "crumbs": [
       "Background",
       "Proposal"
+    ]
+  },
+  {
+    "objectID": "planning.html#custom-collections",
+    "href": "planning.html#custom-collections",
+    "title": "Planning",
+    "section": "Custom Collections",
+    "text": "Custom Collections\n\nSee Aim 2/Project 2.1\n\n\nUse cases\n\nSelect files, sessions, volumes shared by others and clone them to my own volume\n\nAdd select box to UI?\nBookmark/shopping cart metaphor for UI\n\nVolume owner notification\n\nNotify that files were cloned, but not by whom?\nPart of volume-level analytics\n\nMaintain file provenance\n\nUI indicates cloned files\nBackend links to citation/source\nNew annotation layers add link back to source volume\n\nHow do annotation files get linked to source video/audio in backend?\n\nCustom collections can include cloned and new material\n\nEdge cases\n\nWhat happens to cloned items if original owner modifies or deletes them?\nWhat happens to shared volumes containing cloned material when the owner modifies or deletes them?\nWho can create custom collections?\n\nMust have account\nPremium feature (at member institution)?\nHave read privileges on private volume",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "slides/2025-03-10-kickoff.html#footnotes",
+    "href": "slides/2025-03-10-kickoff.html#footnotes",
+    "title": "Project kick-off",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCritical for PLAY↩︎",
+    "crumbs": [
+      "Meeting Slides",
+      "Project kick-off"
     ]
   }
 ]

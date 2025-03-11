@@ -13,9 +13,9 @@ This page provides information about project meetings and project planning.
 
 ### Attendees
 
-::: {.callout-warning}
-## To be completed
-:::
+- Databrary: Rick Gilmore, Karen Adolph, Kasey Soska, Andrea Seisler
+- NYU IT: Ken Yelton, Julian Quintero
+- Montrose Software: Olha Hnatiuk, Miroslaw Syzdek
 
 ### Agenda
 
@@ -54,6 +54,35 @@ This page provides information about project meetings and project planning.
 
 ### Follow-up
 
-::: {.callout-warning}
-## To be completed
-:::
+- Return to two-week sprints, starting 2025-03-11
+- Plan to focus on DB2.0 deliverables first
+- Begin planning *Custom Collections* (Aim 2)
+
+
+
+## Custom Collections
+
+- See Aim 2/Project 2.1
+
+### Use cases
+
+- Select files, sessions, volumes shared by others and clone them to my own volume
+  - Add select box to UI?
+  - Bookmark/shopping cart metaphor for UI
+- Volume owner notification
+  - Notify *that* files were cloned, but not *by whom*?
+  - Part of volume-level analytics
+- Maintain file provenance
+  - UI indicates cloned files
+  - Backend links to citation/source
+  - New annotation layers add link back to source volume
+    - How do annotation files get linked to source video/audio in backend?
+  - Custom collections can include cloned and new material
+- Edge cases
+  - What happens to cloned items if original owner modifies or deletes them?
+  - What happens to shared volumes containing cloned material when the owner modifies or deletes them?
+  - Who can create custom collections?
+    - Must have account
+    - Premium feature (at member institution)?
+    - Have read privileges on private volume
+    

@@ -36,8 +36,13 @@ subtitle: "2025-03-10"
 ---
 
 - NIH [Play & Learning Across a Year (PLAY)](https://play-project.org) (2018-)
+- John S. Templeton Foundation
+- DARPA
 - [NSF OAC-2032713](https://databrary.github.io/nsf-oac-2032713) (2020-2023)
 <!-- - ~~NIH Zoobrary proposal (2023)~~ -->
+
+---
+
 - NYU internal award (2023, 2024)
 <!-- - ~~NIMH & NICHD contracts (2024)~~ -->
 <!-- - ~~NYU TOV TAC (2024)~~ -->
