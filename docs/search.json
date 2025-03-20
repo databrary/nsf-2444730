@@ -81,7 +81,7 @@
     "href": "slides/2025-03-10-kickoff.html#aim-3-workspaces",
     "title": "Project kick-off",
     "section": "Aim 3: Workspaces",
-    "text": "Aim 3: Workspaces\n\nWhy:\n\nActive curation (Soska et al., 2021) \\(&gt;&gt;\\) post hoc\nIn progress \\(\\neq\\) published/shared\n\nHow:\n\nWorkspace with essential DB2 metadata\nFlexible views\nSemi-automated curation for sharing",
+    "text": "Aim 3: Workspaces\n\nWhy:\n\nActive curation (Soska et al. 2021) \\(&gt;&gt;\\) post hoc\nIn progress \\(\\neq\\) published/shared\n\nHow:\n\nWorkspace with essential DB2 metadata\nFlexible views\nSemi-automated curation for sharing",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
@@ -136,7 +136,7 @@
     "href": "slides/2025-03-10-kickoff.html#known-knowns",
     "title": "Project kick-off",
     "section": "Known-knowns",
-    "text": "Known-knowns\n\n\n\n\n\n\n\n\n\nUrgent\nNot Urgent\n\n\n\n\nImportant\nUpload; search; Montrose\ncustom collections1; databrary{r,py}; curation\n\n\nNot important\nUI cleanup",
+    "text": "Known-knowns\n\n\n\n\n\n\n\n\n\nUrgent\nNot Urgent\n\n\n\n\nImportant\nUpload; search; Montrose\ncustom collections1; databrary{r,py}; curation\n\n\nNot important\nUI cleanup\n\n\n\n\nCritical for PLAY",
     "crumbs": [
       "Meeting Slides",
       "Project kick-off"
