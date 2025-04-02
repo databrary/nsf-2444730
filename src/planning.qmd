@@ -51,13 +51,11 @@ This page provides information about project meetings and project planning.
 
 ![Timeline from technical plan in [submitted proposal](include/pdf/adolph-gilmore-hnds-i-submitted-copy.pdf).](include/img/timeline-2024-07-19v01.png){#fig-proposal-timeline}
 
-
 ### Follow-up
 
 - Return to two-week sprints, starting 2025-03-11
 - Plan to focus on DB2.0 deliverables first
 - Begin planning *Custom Collections* (Aim 2)
-
 
 
 ## Custom Collections
@@ -86,3 +84,10 @@ This page provides information about project meetings and project planning.
     - Premium feature (at member institution)?
     - Have read privileges on private volume
     
+## Search
+
+### Use cases/user stories
+
+- Prioritize search based on user's recent searches, their own volumes
+- Separate or make selectable search for volumes, institutions, users, files/videos
+- Suggest "popular" searches, see [screenshot](include/img/our-world-in-data-search.png) from [Our World in Data](https://ourworldindata.org). Also Google Search [screenshot](include/img/google-search-screenshot.png).

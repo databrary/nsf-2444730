@@ -312,5 +312,16 @@
       "Meeting Slides",
       "Project kick-off"
     ]
+  },
+  {
+    "objectID": "planning.html#search",
+    "href": "planning.html#search",
+    "title": "Planning",
+    "section": "Search",
+    "text": "Search\n\nUse cases/user stories\n\nPrioritize search based on user’s recent searches, their own volumes\nSeparate or make selectable search for volumes, institutions, users, files/videos\nSuggest “popular” searches, see screenshot from Our World in Data. Also Google Search screenshot.",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
   }
 ]
