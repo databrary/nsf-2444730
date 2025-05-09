@@ -318,7 +318,46 @@
     "href": "planning.html#search",
     "title": "Planning",
     "section": "Search",
-    "text": "Search\n\nUse cases/user stories\n\nPrioritize search based on user’s recent searches, their own volumes\nSeparate or make selectable search for volumes, institutions, users, files/videos\nSuggest “popular” searches, see screenshot from Our World in Data. Also Google Search screenshot.",
+    "text": "Search\n\nSee Aim 1/Project 1.1\n\n\nUse cases/user stories\n\nPrioritize search based on user’s recent searches, their own volumes.\nSeparate or make selectable search for volumes, institutions, users, files/videos\nSuggest “popular” searches, see screenshot from Our World in Data. Also Google Search screenshot.\n\n\n\nActive tickets\n\nhttps://montrose.atlassian.net/browse/DAT-213?atlOrigin=eyJpIjoiNDIyZDU5MWVkZjMwNDEzYjhlOTI2Zjc0NWYyNDk1NjAiLCJwIjoiaiJ9\nhttps://montrose.atlassian.net/browse/DAT-302?atlOrigin=eyJpIjoiZDUwZmFlZjg4MzE2NGE4ZGI3MzU2MzJhN2YwMTVhZmIiLCJwIjoiaiJ9\nhttps://montrose.atlassian.net/browse/DAT-303?atlOrigin=eyJpIjoiNDg2YjVkYmZiOTk5NDQxYTgyNGQzYmMxNDdjNDc4YzUiLCJwIjoiaiJ9\nhttps://montrose.atlassian.net/browse/DAT-864?atlOrigin=eyJpIjoiOGExMWY3Njg2YjczNDQ5Mzk5YjRkMjQzODlmZWU4NjkiLCJwIjoiaiJ9\nIndex text in papers a volume links to. https://montrose.atlassian.net/browse/DAT-862?atlOrigin=eyJpIjoiYmRhMjEzN2VhYWZiNDI0YmFlZTU3ZDc3OWFjN2JlZjQiLCJwIjoiaiJ9",
+    "crumbs": [
+      "Background",
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "spreadsheet.html",
+    "href": "spreadsheet.html",
+    "title": "Spreadsheet",
+    "section": "",
+    "text": "This page documents work related to an overhaul of the Databrary 2.0 spreadsheet interface."
+  },
+  {
+    "objectID": "spreadsheet.html#about",
+    "href": "spreadsheet.html#about",
+    "title": "Spreadsheet",
+    "section": "",
+    "text": "This page documents work related to an overhaul of the Databrary 2.0 spreadsheet interface."
+  },
+  {
+    "objectID": "spreadsheet.html#data-model",
+    "href": "spreadsheet.html#data-model",
+    "title": "Spreadsheet",
+    "section": "Data model",
+    "text": "Data model\nThis section represents an informal attempt to capture the data model that underlies the Databrary spreadsheet. There are three main tables, Session, Person, and File, with two linking tables SessionPerson, and PersonFile.\n\nSession\n\n\n\n\n\n\nflowchart TD\n  A[Session] --&gt; B(session_id)\n  A --&gt; C(date_time)\n  A --&gt; D(location)\n  A --&gt; E(type)\n  A --&gt; F(volume_ID)\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\nPerson\n\n\n\n\n\n\nflowchart TD\n  A[Person] --&gt; B(Person_ID)\n  A --&gt; C(birthdate)\n  A --&gt; G(age_entered)\n  A --&gt; H(age_units)\n  A --&gt; D(gender)\n  A --&gt; E(race)\n  A --&gt; F(ethnicity)\n\n\n\n\nFigure 2\n\n\n\n\n\n\n\nFile\n\n\n\n\n\n\nflowchart TD\n  A[File] --&gt; B(file_ID)\n  A --&gt; C(file_type)\n  A --&gt; D(date_created)\n  A --&gt; E(permission)\n\n\n\n\nFigure 3\n\n\n\n\n\n\n\nPerson/File\n\n\n\n\n\n\nflowchart TD\n  A[PersonFile] --&gt; B(personFile_ID)\n  A --&gt; C(Person_ID)\n  A --&gt; D(file_ID)\n\n\n\n\nFigure 4\n\n\n\n\n\n\n\nSession/Person\n\n\n\n\n\n\nflowchart TD\n  A[SessionPerson] --&gt; B(sessionPerson_ID)\n  A --&gt; C(Person_ID)\n  A --&gt; D(session_id)\n\n\n\n\nFigure 5\n\n\n\n\n\n\n\nCombined\n\n\n\n\n\n\nflowchart TD\n  A[Session] --&gt; B(session_id)\n  A --&gt; C(date_time)\n  A --&gt; D(location)\n  A --&gt; E(type)\n  A --&gt; F(volume_ID)\n  B --&gt; H[SessionPerson]\n  H --&gt; I[Person]\n  I --&gt; J(person_ID)\n  I --&gt; L(birthdate)\n  L --&gt; R(age_calculated)\n  I --&gt; S(age_entered)\n  C --&gt; R\n  J --&gt; K[PersonFile]\n  K --&gt; O(file_ID)\n  O --&gt; Q[File]\n  Q --&gt; M(type)\n  Q --&gt; N(permission)\n\n\n\n\nFigure 6"
+  },
+  {
+    "objectID": "spreadsheet.html#commentary",
+    "href": "spreadsheet.html#commentary",
+    "title": "Spreadsheet",
+    "section": "Commentary",
+    "text": "Commentary\n\nConsider thinking about sessions as containers, as DB1 did or as collections of people and files."
+  },
+  {
+    "objectID": "planning.html#sprint-planning-2025-05-09",
+    "href": "planning.html#sprint-planning-2025-05-09",
+    "title": "Planning",
+    "section": "Sprint planning 2025-05-09",
+    "text": "Sprint planning 2025-05-09\n\nResources\n\nDocument describing one possible spreadsheet data model.",
     "crumbs": [
       "Background",
       "Planning"

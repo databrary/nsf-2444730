@@ -7,6 +7,12 @@ format: html
 
 This page provides information about project meetings and project planning.
 
+## Sprint planning 2025-05-09
+
+### Resources
+
+- Document describing one possible [spreadsheet](spreadsheet.qmd) data model.
+
 ## Kick-off 2025-03-10
 
 - [Slides](slides/2025-03-10-kickoff.qmd)
@@ -57,7 +63,6 @@ This page provides information about project meetings and project planning.
 - Plan to focus on DB2.0 deliverables first
 - Begin planning *Custom Collections* (Aim 2)
 
-
 ## Custom Collections
 
 - See Aim 2/Project 2.1
@@ -86,8 +91,18 @@ This page provides information about project meetings and project planning.
     
 ## Search
 
+- See Aim 1/Project 1.1
+
 ### Use cases/user stories
 
-- Prioritize search based on user's recent searches, their own volumes
+- Prioritize search based on user's recent searches, their own volumes.
 - Separate or make selectable search for volumes, institutions, users, files/videos
 - Suggest "popular" searches, see [screenshot](include/img/our-world-in-data-search.png) from [Our World in Data](https://ourworldindata.org). Also Google Search [screenshot](include/img/google-search-screenshot.png).
+
+### Active tickets
+
+- <https://montrose.atlassian.net/browse/DAT-213?atlOrigin=eyJpIjoiNDIyZDU5MWVkZjMwNDEzYjhlOTI2Zjc0NWYyNDk1NjAiLCJwIjoiaiJ9>
+- <https://montrose.atlassian.net/browse/DAT-302?atlOrigin=eyJpIjoiZDUwZmFlZjg4MzE2NGE4ZGI3MzU2MzJhN2YwMTVhZmIiLCJwIjoiaiJ9>
+- <https://montrose.atlassian.net/browse/DAT-303?atlOrigin=eyJpIjoiNDg2YjVkYmZiOTk5NDQxYTgyNGQzYmMxNDdjNDc4YzUiLCJwIjoiaiJ9>
+- <https://montrose.atlassian.net/browse/DAT-864?atlOrigin=eyJpIjoiOGExMWY3Njg2YjczNDQ5Mzk5YjRkMjQzODlmZWU4NjkiLCJwIjoiaiJ9>
+- Index text in papers a volume links to. <https://montrose.atlassian.net/browse/DAT-862?atlOrigin=eyJpIjoiYmRhMjEzN2VhYWZiNDI0YmFlZTU3ZDc3OWFjN2JlZjQiLCJwIjoiaiJ9>

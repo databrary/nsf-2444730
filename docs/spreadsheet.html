@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Planning – Databrary NSF 2444730</title>
+<title>Spreadsheet – Databrary NSF 2444730</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,9 +73,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-fcc34f81e50867bda6962a77c9f2ff8e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,6 +100,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -143,7 +143,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./proposal.html">Background</a></li><li class="breadcrumb-item"><a href="./planning.html">Planning</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Spreadsheet</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -186,7 +186,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./planning.html" class="sidebar-item-text sidebar-link active">
+  <a href="./planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Planning</span></a>
   </div>
 </li>
@@ -220,34 +220,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#sprint-planning-2025-05-09" id="toc-sprint-planning-2025-05-09" class="nav-link" data-scroll-target="#sprint-planning-2025-05-09">Sprint planning 2025-05-09</a>
+  <li><a href="#data-model" id="toc-data-model" class="nav-link" data-scroll-target="#data-model">Data model</a>
   <ul class="collapse">
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#session" id="toc-session" class="nav-link" data-scroll-target="#session">Session</a></li>
+  <li><a href="#person" id="toc-person" class="nav-link" data-scroll-target="#person">Person</a></li>
+  <li><a href="#file" id="toc-file" class="nav-link" data-scroll-target="#file">File</a></li>
+  <li><a href="#personfile" id="toc-personfile" class="nav-link" data-scroll-target="#personfile">Person/File</a></li>
+  <li><a href="#sessionperson" id="toc-sessionperson" class="nav-link" data-scroll-target="#sessionperson">Session/Person</a></li>
+  <li><a href="#combined" id="toc-combined" class="nav-link" data-scroll-target="#combined">Combined</a></li>
   </ul></li>
-  <li><a href="#kick-off-2025-03-10" id="toc-kick-off-2025-03-10" class="nav-link" data-scroll-target="#kick-off-2025-03-10">Kick-off 2025-03-10</a>
-  <ul class="collapse">
-  <li><a href="#attendees" id="toc-attendees" class="nav-link" data-scroll-target="#attendees">Attendees</a></li>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#follow-up" id="toc-follow-up" class="nav-link" data-scroll-target="#follow-up">Follow-up</a></li>
-  </ul></li>
-  <li><a href="#custom-collections" id="toc-custom-collections" class="nav-link" data-scroll-target="#custom-collections">Custom Collections</a>
-  <ul class="collapse">
-  <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases">Use cases</a></li>
-  </ul></li>
-  <li><a href="#search" id="toc-search" class="nav-link" data-scroll-target="#search">Search</a>
-  <ul class="collapse">
-  <li><a href="#use-casesuser-stories" id="toc-use-casesuser-stories" class="nav-link" data-scroll-target="#use-casesuser-stories">Use cases/user stories</a></li>
-  <li><a href="#active-tickets" id="toc-active-tickets" class="nav-link" data-scroll-target="#active-tickets">Active tickets</a></li>
-  </ul></li>
+  <li><a href="#commentary" id="toc-commentary" class="nav-link" data-scroll-target="#commentary">Commentary</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/databrary/nsf-2444730/edit/main/src/planning.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/nsf-2444730/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/nsf-2444730/edit/main/src/spreadsheet.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/nsf-2444730/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./proposal.html">Background</a></li><li class="breadcrumb-item"><a href="./planning.html">Planning</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Planning</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Spreadsheet</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -266,168 +257,180 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This page provides information about project meetings and project planning.</p>
+<p>This page documents work related to an overhaul of the Databrary 2.0 spreadsheet interface.</p>
 </section>
-<section id="sprint-planning-2025-05-09" class="level2">
-<h2 class="anchored" data-anchor-id="sprint-planning-2025-05-09">Sprint planning 2025-05-09</h2>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<ul>
-<li>Document describing one possible <a href="./spreadsheet.html">spreadsheet</a> data model.</li>
-</ul>
-</section>
-</section>
-<section id="kick-off-2025-03-10" class="level2">
-<h2 class="anchored" data-anchor-id="kick-off-2025-03-10">Kick-off 2025-03-10</h2>
-<ul>
-<li><a href="./slides/2025-03-10-kickoff.html">Slides</a></li>
-</ul>
-<section id="attendees" class="level3">
-<h3 class="anchored" data-anchor-id="attendees">Attendees</h3>
-<ul>
-<li>Databrary: Rick Gilmore, Karen Adolph, Kasey Soska, Andrea Seisler</li>
-<li>NYU IT: Ken Yelton, Julian Quintero</li>
-<li>Montrose Software: Olha Hnatiuk, Miroslaw Syzdek</li>
-</ul>
-</section>
-<section id="agenda" class="level3">
-<h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
-<section id="overview" class="level4">
-<h4 class="anchored" data-anchor-id="overview">Overview</h4>
-<ul>
-<li>What and why</li>
-</ul>
-</section>
-<section id="aimsprojects" class="level4">
-<h4 class="anchored" data-anchor-id="aimsprojects">Aims/Projects</h4>
-<ul>
-<li><strong>Aim 1</strong>: Accelerate data reuse through enhanced data discovery
-<ul>
-<li><em>Project 1.1</em>: Update Databrary’s search engine and user interfaces</li>
-<li><em>Project 1.2</em>: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers</li>
-</ul></li>
-<li><strong>Aim 2</strong>: Ease data reuse with custom collections that automatically track provenance across sources
-<ul>
-<li><em>Project 2.1</em>: Create new custom collections of shared videos for reanalysis</li>
-</ul></li>
-<li><strong>Aim 3</strong>: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing
-<ul>
-<li><em>Project 3.1</em>: Implement “workspaces” for in-progress research projects</li>
-<li><em>Project 3.2</em>: Update Databrary’s UI to permit flexible views of datasets</li>
-</ul></li>
-<li><strong>Aim 4</strong>: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions
-<ul>
-<li><em>Project 4.1</em>: Polish, document, and promote Databrary’s API</li>
-<li><em>Project 4.2</em>: Update <a href="https://github.com/databrary/databraryr">databraryr</a> and develop and release a Python package, databrarypy, for accessing Databrary</li>
-<li><em>Project 4.3</em>: Create and publish sample scripts and introduce the new automation tools to the research community</li>
-</ul></li>
-<li><strong>Aim 5</strong>: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data
-<ul>
-<li><em>Project 5.1</em>: Make existing shared datasets more readily findable</li>
-<li><em>Project 5.2</em>: Curate unshared datasets and release them for wider use</li>
-</ul></li>
-</ul>
-</section>
-<section id="governance" class="level4">
-<h4 class="anchored" data-anchor-id="governance">Governance</h4>
-<ul>
-<li>Staffing/roles</li>
-<li>Advisory board</li>
-<li>Communications</li>
-</ul>
-</section>
-<section id="timeline" class="level4">
-<h4 class="anchored" data-anchor-id="timeline">Timeline</h4>
-<div id="fig-proposal-timeline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<section id="data-model" class="level2">
+<h2 class="anchored" data-anchor-id="data-model">Data model</h2>
+<p>This section represents an informal attempt to capture the data model that underlies the Databrary spreadsheet. There are three main tables, <em>Session</em>, <em>Person</em>, and <em>File</em>, with two linking tables <em>SessionPerson</em>, and <em>PersonFile</em>.</p>
+<section id="session" class="level3">
+<h3 class="anchored" data-anchor-id="session">Session</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-Session" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-proposal-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="include/img/timeline-2024-07-19v01.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Timeline from technical plan in submitted proposal."><img src="include/img/timeline-2024-07-19v01.png" class="img-fluid figure-img"></a>
+<div aria-describedby="fig-spreadsheet-Session-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-Session">flowchart TD
+  A[Session] --&gt; B(session_id)
+  A --&gt; C(date_time)
+  A --&gt; D(location)
+  A --&gt; E(type)
+  A --&gt; F(volume_ID)
+</pre>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-proposal-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Timeline from technical plan in <a href="include/pdf/adolph-gilmore-hnds-i-submitted-copy.pdf">submitted proposal</a>.
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-Session-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
 </figcaption>
 </figure>
 </div>
+</div>
+</div>
+</section>
+<section id="person" class="level3">
+<h3 class="anchored" data-anchor-id="person">Person</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-Person" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spreadsheet-Person-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-Person">flowchart TD
+  A[Person] --&gt; B(Person_ID)
+  A --&gt; C(birthdate)
+  A --&gt; G(age_entered)
+  A --&gt; H(age_units)
+  A --&gt; D(gender)
+  A --&gt; E(race)
+  A --&gt; F(ethnicity)
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-Person-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="file" class="level3">
+<h3 class="anchored" data-anchor-id="file">File</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-File" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spreadsheet-File-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-File">flowchart TD
+  A[File] --&gt; B(file_ID)
+  A --&gt; C(file_type)
+  A --&gt; D(date_created)
+  A --&gt; E(permission)
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-File-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="personfile" class="level3">
+<h3 class="anchored" data-anchor-id="personfile">Person/File</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-personFile" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spreadsheet-personFile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-personFile">flowchart TD
+  A[PersonFile] --&gt; B(personFile_ID)
+  A --&gt; C(Person_ID)
+  A --&gt; D(file_ID)
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-personFile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="sessionperson" class="level3">
+<h3 class="anchored" data-anchor-id="sessionperson">Session/Person</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-sessionPerson" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spreadsheet-sessionPerson-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-sessionPerson">flowchart TD
+  A[SessionPerson] --&gt; B(sessionPerson_ID)
+  A --&gt; C(Person_ID)
+  A --&gt; D(session_id)
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-sessionPerson-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="combined" class="level3">
+<h3 class="anchored" data-anchor-id="combined">Combined</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-spreadsheet-data-model" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spreadsheet-data-model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-spreadsheet-data-model">flowchart TD
+  A[Session] --&gt; B(session_id)
+  A --&gt; C(date_time)
+  A --&gt; D(location)
+  A --&gt; E(type)
+  A --&gt; F(volume_ID)
+  B --&gt; H[SessionPerson]
+  H --&gt; I[Person]
+  I --&gt; J(person_ID)
+  I --&gt; L(birthdate)
+  L --&gt; R(age_calculated)
+  I --&gt; S(age_entered)
+  C --&gt; R
+  J --&gt; K[PersonFile]
+  K --&gt; O(file_ID)
+  O --&gt; Q[File]
+  Q --&gt; M(type)
+  Q --&gt; N(permission)
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-spreadsheet-data-model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 </section>
-<section id="follow-up" class="level3">
-<h3 class="anchored" data-anchor-id="follow-up">Follow-up</h3>
+<section id="commentary" class="level2">
+<h2 class="anchored" data-anchor-id="commentary">Commentary</h2>
 <ul>
-<li>Return to two-week sprints, starting 2025-03-11</li>
-<li>Plan to focus on DB2.0 deliverables first</li>
-<li>Begin planning <em>Custom Collections</em> (Aim 2)</li>
-</ul>
-</section>
-</section>
-<section id="custom-collections" class="level2">
-<h2 class="anchored" data-anchor-id="custom-collections">Custom Collections</h2>
-<ul>
-<li>See Aim 2/Project 2.1</li>
-</ul>
-<section id="use-cases" class="level3">
-<h3 class="anchored" data-anchor-id="use-cases">Use cases</h3>
-<ul>
-<li>Select files, sessions, volumes shared by others and clone them to my own volume
-<ul>
-<li>Add select box to UI?</li>
-<li>Bookmark/shopping cart metaphor for UI</li>
-</ul></li>
-<li>Volume owner notification
-<ul>
-<li>Notify <em>that</em> files were cloned, but not <em>by whom</em>?</li>
-<li>Part of volume-level analytics</li>
-</ul></li>
-<li>Maintain file provenance
-<ul>
-<li>UI indicates cloned files</li>
-<li>Backend links to citation/source</li>
-<li>New annotation layers add link back to source volume
-<ul>
-<li>How do annotation files get linked to source video/audio in backend?</li>
-</ul></li>
-<li>Custom collections can include cloned and new material</li>
-</ul></li>
-<li>Edge cases
-<ul>
-<li>What happens to cloned items if original owner modifies or deletes them?</li>
-<li>What happens to shared volumes containing cloned material when the owner modifies or deletes them?</li>
-<li>Who can create custom collections?
-<ul>
-<li>Must have account</li>
-<li>Premium feature (at member institution)?</li>
-<li>Have read privileges on private volume</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="search" class="level2">
-<h2 class="anchored" data-anchor-id="search">Search</h2>
-<ul>
-<li>See Aim 1/Project 1.1</li>
-</ul>
-<section id="use-casesuser-stories" class="level3">
-<h3 class="anchored" data-anchor-id="use-casesuser-stories">Use cases/user stories</h3>
-<ul>
-<li>Prioritize search based on user’s recent searches, their own volumes.</li>
-<li>Separate or make selectable search for volumes, institutions, users, files/videos</li>
-<li>Suggest “popular” searches, see <a href="include/img/our-world-in-data-search.png">screenshot</a> from <a href="https://ourworldindata.org">Our World in Data</a>. Also Google Search <a href="include/img/google-search-screenshot.png">screenshot</a>.</li>
-</ul>
-</section>
-<section id="active-tickets" class="level3">
-<h3 class="anchored" data-anchor-id="active-tickets">Active tickets</h3>
-<ul>
-<li><a href="https://montrose.atlassian.net/browse/DAT-213?atlOrigin=eyJpIjoiNDIyZDU5MWVkZjMwNDEzYjhlOTI2Zjc0NWYyNDk1NjAiLCJwIjoiaiJ9" class="uri">https://montrose.atlassian.net/browse/DAT-213?atlOrigin=eyJpIjoiNDIyZDU5MWVkZjMwNDEzYjhlOTI2Zjc0NWYyNDk1NjAiLCJwIjoiaiJ9</a></li>
-<li><a href="https://montrose.atlassian.net/browse/DAT-302?atlOrigin=eyJpIjoiZDUwZmFlZjg4MzE2NGE4ZGI3MzU2MzJhN2YwMTVhZmIiLCJwIjoiaiJ9" class="uri">https://montrose.atlassian.net/browse/DAT-302?atlOrigin=eyJpIjoiZDUwZmFlZjg4MzE2NGE4ZGI3MzU2MzJhN2YwMTVhZmIiLCJwIjoiaiJ9</a></li>
-<li><a href="https://montrose.atlassian.net/browse/DAT-303?atlOrigin=eyJpIjoiNDg2YjVkYmZiOTk5NDQxYTgyNGQzYmMxNDdjNDc4YzUiLCJwIjoiaiJ9" class="uri">https://montrose.atlassian.net/browse/DAT-303?atlOrigin=eyJpIjoiNDg2YjVkYmZiOTk5NDQxYTgyNGQzYmMxNDdjNDc4YzUiLCJwIjoiaiJ9</a></li>
-<li><a href="https://montrose.atlassian.net/browse/DAT-864?atlOrigin=eyJpIjoiOGExMWY3Njg2YjczNDQ5Mzk5YjRkMjQzODlmZWU4NjkiLCJwIjoiaiJ9" class="uri">https://montrose.atlassian.net/browse/DAT-864?atlOrigin=eyJpIjoiOGExMWY3Njg2YjczNDQ5Mzk5YjRkMjQzODlmZWU4NjkiLCJwIjoiaiJ9</a></li>
-<li>Index text in papers a volume links to. <a href="https://montrose.atlassian.net/browse/DAT-862?atlOrigin=eyJpIjoiYmRhMjEzN2VhYWZiNDI0YmFlZTU3ZDc3OWFjN2JlZjQiLCJwIjoiaiJ9" class="uri">https://montrose.atlassian.net/browse/DAT-862?atlOrigin=eyJpIjoiYmRhMjEzN2VhYWZiNDI0YmFlZTU3ZDc3OWFjN2JlZjQiLCJwIjoiaiJ9</a></li>
+<li>Consider thinking about sessions as <em>containers</em>, as DB1 did or as <em>collections</em> of people and files.</li>
 </ul>
 
 
 <!-- -->
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -900,113 +903,106 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Planning"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Spreadsheet"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## About</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>This page provides information about project meetings and project planning.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>This page documents work related to an overhaul of the Databrary 2.0 spreadsheet interface.</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Sprint planning 2025-05-09</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data model</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">### Resources</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Document describing one possible <span class="co">[</span><span class="ot">spreadsheet</span><span class="co">](spreadsheet.qmd)</span> data model.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Kick-off 2025-03-10</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Slides</span><span class="co">](slides/2025-03-10-kickoff.qmd)</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Attendees</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>This section represents an informal attempt to capture the data model that underlies the Databrary spreadsheet.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>There are three main tables, *Session*, *Person*, and *File*, with two linking tables *SessionPerson*, and *PersonFile*.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### Session</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-Session</span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Databrary: Rick Gilmore, Karen Adolph, Kasey Soska, Andrea Seisler</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>NYU IT: Ken Yelton, Julian Quintero</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Montrose Software: Olha Hnatiuk, Miroslaw Syzdek</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">### Agenda</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Overview</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="in">  A[Session] --&gt; B(session_id)</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(date_time)</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(location)</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; E(type)</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; F(volume_ID)</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What and why</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">### Person</span></span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Aims/Projects</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Aim 1**: Accelerate data reuse through enhanced data discovery</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 1.1*: Update Databrary’s search engine and user interfaces</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 1.2*: Update Databrary’s backend to support storage of multiple annotation layers and develop interfaces to depict multiple annotation layers</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Aim 2**: Ease data reuse with custom collections that automatically track provenance across sources</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 2.1*: Create new custom collections of shared videos for reanalysis</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Aim 3**: Expand data sharing via workspaces that support active curation, thereby reducing the lag between data analysis and open sharing</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 3.1*: Implement “workspaces” for in-progress research projects</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 3.2*: Update Databrary’s UI to permit flexible views of datasets</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Aim 4**: Promote research transparency and reproducibility by expanding scriptable access to Databrary functions</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 4.1*: Polish, document, and promote Databrary’s API</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 4.2*: Update <span class="co">[</span><span class="ot">databraryr</span><span class="co">](https://github.com/databrary/databraryr)</span> and develop and release a Python package, databrarypy, for accessing Databrary</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 4.3*: Create and publish sample scripts and introduce the new automation tools to the research community</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Aim 5**: Enhance the value of existing data stored on Databrary by adding searchable metadata and sharing unshared data</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 5.1*: Make existing shared datasets more readily findable</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>*Project 5.2*: Curate unshared datasets and release them for wider use</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Governance</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Staffing/roles</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Advisory board</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Communications</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Timeline</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>!<span class="co">[</span><span class="ot">Timeline from technical plan in [submitted proposal](include/pdf/adolph-gilmore-hnds-i-submitted-copy.pdf).</span><span class="co">](include/img/timeline-2024-07-19v01.png)</span>{#fig-proposal-timeline}</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-Person</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="in">  A[Person] --&gt; B(Person_ID)</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(birthdate)</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; G(age_entered)</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; H(age_units)</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(gender)</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; E(race)</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; F(ethnicity)</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">### File</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-File</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="in">  A[File] --&gt; B(file_ID)</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(file_type)</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(date_created)</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; E(permission)</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">### Follow-up</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">### Person/File</span></span>
 <span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Return to two-week sprints, starting 2025-03-11</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Plan to focus on DB2.0 deliverables first</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Begin planning *Custom Collections* (Aim 2)</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## Custom Collections</span></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>See Aim 2/Project 2.1</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="fu">### Use cases</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-personFile</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="in">  A[PersonFile] --&gt; B(personFile_ID)</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(Person_ID)</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(file_ID)</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Select files, sessions, volumes shared by others and clone them to my own volume</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Add select box to UI?</span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Bookmark/shopping cart metaphor for UI</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Volume owner notification</span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Notify *that* files were cloned, but not *by whom*?</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Part of volume-level analytics</span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Maintain file provenance</span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>UI indicates cloned files</span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Backend links to citation/source</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>New annotation layers add link back to source volume</span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>How do annotation files get linked to source video/audio in backend?</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Custom collections can include cloned and new material</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Edge cases</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>What happens to cloned items if original owner modifies or deletes them?</span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>What happens to shared volumes containing cloned material when the owner modifies or deletes them?</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Who can create custom collections?</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Must have account</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Premium feature (at member institution)?</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Have read privileges on private volume</span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="fu">## Search</span></span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>See Aim 1/Project 1.1</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="fu">### Use cases/user stories</span></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Prioritize search based on user's recent searches, their own volumes.</span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Separate or make selectable search for volumes, institutions, users, files/videos</span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Suggest "popular" searches, see <span class="co">[</span><span class="ot">screenshot</span><span class="co">](include/img/our-world-in-data-search.png)</span> from <span class="co">[</span><span class="ot">Our World in Data</span><span class="co">](https://ourworldindata.org)</span>. Also Google Search <span class="co">[</span><span class="ot">screenshot</span><span class="co">](include/img/google-search-screenshot.png)</span>.</span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="fu">### Active tickets</span></span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://montrose.atlassian.net/browse/DAT-213?atlOrigin=eyJpIjoiNDIyZDU5MWVkZjMwNDEzYjhlOTI2Zjc0NWYyNDk1NjAiLCJwIjoiaiJ9&gt;</span></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://montrose.atlassian.net/browse/DAT-302?atlOrigin=eyJpIjoiZDUwZmFlZjg4MzE2NGE4ZGI3MzU2MzJhN2YwMTVhZmIiLCJwIjoiaiJ9&gt;</span></span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://montrose.atlassian.net/browse/DAT-303?atlOrigin=eyJpIjoiNDg2YjVkYmZiOTk5NDQxYTgyNGQzYmMxNDdjNDc4YzUiLCJwIjoiaiJ9&gt;</span></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://montrose.atlassian.net/browse/DAT-864?atlOrigin=eyJpIjoiOGExMWY3Njg2YjczNDQ5Mzk5YjRkMjQzODlmZWU4NjkiLCJwIjoiaiJ9&gt;</span></span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Index text in papers a volume links to. <span class="ot">&lt;https://montrose.atlassian.net/browse/DAT-862?atlOrigin=eyJpIjoiYmRhMjEzN2VhYWZiNDI0YmFlZTU3ZDc3OWFjN2JlZjQiLCJwIjoiaiJ9&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="fu">### Session/Person</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-sessionPerson</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="in">  A[SessionPerson] --&gt; B(sessionPerson_ID)</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(Person_ID)</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(session_id)</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="fu">### Combined</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="in">%%| label: fig-spreadsheet-data-model</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="in">  A[Session] --&gt; B(session_id)</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; C(date_time)</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; D(location)</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; E(type)</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="in">  A --&gt; F(volume_ID)</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="in">  B --&gt; H[SessionPerson]</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="in">  H --&gt; I[Person]</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="in">  I --&gt; J(person_ID)</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="in">  I --&gt; L(birthdate)</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="in">  L --&gt; R(age_calculated)</span></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="in">  I --&gt; S(age_entered)</span></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="in">  C --&gt; R</span></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="in">  J --&gt; K[PersonFile]</span></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="in">  K --&gt; O(file_ID)</span></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="in">  O --&gt; Q[File]</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="in">  Q --&gt; M(type)</span></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="in">  Q --&gt; N(permission)</span></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">## Commentary</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Consider thinking about sessions as *containers*, as DB1 did or as *collections* of people and files.</span>
+</code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
@@ -1016,44 +1012,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>This material is based on work supported by the National Science Foundation under grant 2444730. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/nsf-2444730/edit/main/src/planning.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/nsf-2444730/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/nsf-2444730/edit/main/src/spreadsheet.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/nsf-2444730/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

@@ -1,0 +1,100 @@
+---
+title: "Spreadsheet"
+format: html
+---
+
+## About
+
+This page documents work related to an overhaul of the Databrary 2.0 spreadsheet interface.
+
+## Data model
+
+This section represents an informal attempt to capture the data model that underlies the Databrary spreadsheet.
+There are three main tables, *Session*, *Person*, and *File*, with two linking tables *SessionPerson*, and *PersonFile*.
+
+### Session
+
+```{mermaid}
+%%| label: fig-spreadsheet-Session
+
+flowchart TD
+  A[Session] --> B(session_id)
+  A --> C(date_time)
+  A --> D(location)
+  A --> E(type)
+  A --> F(volume_ID)
+```
+
+### Person
+
+```{mermaid}
+%%| label: fig-spreadsheet-Person
+
+flowchart TD
+  A[Person] --> B(Person_ID)
+  A --> C(birthdate)
+  A --> G(age_entered)
+  A --> H(age_units)
+  A --> D(gender)
+  A --> E(race)
+  A --> F(ethnicity)
+```
+
+### File
+
+```{mermaid}
+%%| label: fig-spreadsheet-File
+flowchart TD
+  A[File] --> B(file_ID)
+  A --> C(file_type)
+  A --> D(date_created)
+  A --> E(permission)
+```
+
+### Person/File
+
+```{mermaid}
+%%| label: fig-spreadsheet-personFile
+flowchart TD
+  A[PersonFile] --> B(personFile_ID)
+  A --> C(Person_ID)
+  A --> D(file_ID)
+```
+
+### Session/Person
+
+```{mermaid}
+%%| label: fig-spreadsheet-sessionPerson
+flowchart TD
+  A[SessionPerson] --> B(sessionPerson_ID)
+  A --> C(Person_ID)
+  A --> D(session_id)
+```
+
+### Combined
+
+```{mermaid}
+%%| label: fig-spreadsheet-data-model
+flowchart TD
+  A[Session] --> B(session_id)
+  A --> C(date_time)
+  A --> D(location)
+  A --> E(type)
+  A --> F(volume_ID)
+  B --> H[SessionPerson]
+  H --> I[Person]
+  I --> J(person_ID)
+  I --> L(birthdate)
+  L --> R(age_calculated)
+  I --> S(age_entered)
+  C --> R
+  J --> K[PersonFile]
+  K --> O(file_ID)
+  O --> Q[File]
+  Q --> M(type)
+  Q --> N(permission)
+```
+
+## Commentary
+
+- Consider thinking about sessions as *containers*, as DB1 did or as *collections* of people and files.
