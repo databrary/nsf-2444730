@@ -31,7 +31,7 @@ flowchart TD
 %%| label: fig-spreadsheet-Person
 
 flowchart TD
-  A[Person] --> B(Person_ID)
+  A[Person] --> B(person_ID)
   A --> C(birthdate)
   A --> G(age_entered)
   A --> H(age_units)
@@ -51,23 +51,23 @@ flowchart TD
   A --> E(permission)
 ```
 
-### Person/File
+### PersonFile
 
 ```{mermaid}
 %%| label: fig-spreadsheet-personFile
 flowchart TD
   A[PersonFile] --> B(personFile_ID)
-  A --> C(Person_ID)
+  A --> C(person_ID)
   A --> D(file_ID)
 ```
 
-### Session/Person
+### SessionPerson
 
 ```{mermaid}
 %%| label: fig-spreadsheet-sessionPerson
 flowchart TD
   A[SessionPerson] --> B(sessionPerson_ID)
-  A --> C(Person_ID)
+  A --> C(person_ID)
   A --> D(session_id)
 ```
 
@@ -95,6 +95,99 @@ flowchart TD
   Q --> N(permission)
 ```
 
+Here's an alternative that uses [Mermaid's](https://mermaid.js.org) entity-relationship (`erDiagram`) syntax.
+
+```{mermaid}
+%%| label: fig-er-diagram
+%%| fig-cap: Entity-relationship diagram for Databrary spreadsheet model.
+erDiagram
+  SESSION ||--o{ PERSON : depicts
+  SESSION {
+    string sessionID
+    string sessionDate
+  }
+  PERSON {
+    string personID
+    string birthDate
+    string gender
+  }
+  SESSION ||--o{ FILE : contains
+  FILE {
+    string fileID
+    string fileType
+    string filePermission
+  }
+  PERSONFILE ||--|| PERSON: links
+  PERSONFILE ||--|| FILE: links
+  PERSONFILE {
+    string ID
+  }
+```
+
+Let's try another that depicts the SETTING separately.
+
+```{mermaid}
+%%| label: fig-er-diagram
+%%| fig-cap: Entity-relationship diagram for a possible Databrary spreadsheet model.
+erDiagram
+  SESSION ||--o{ PERSON : ""
+  SESSION {
+    string sessionID
+    string sessionDate
+  }
+  PERSON {
+    string personID
+    string birthDate
+    string gender
+  }
+  SESSION ||--o{ FILE : ""
+  FILE {
+    string fileID
+    string fileType
+    string filePermission
+  }
+  PERSONFILE ||--|| PERSON: ""
+  PERSONFILE ||--|| FILE: ""
+  PERSONFILE {
+    string personFileID
+  }
+  SETTING ||--o{ FILE: ""
+  SETTING {
+    string settingID
+    string settingType
+    string lat
+    string lon
+    string city
+    string state
+    string county
+    string country
+  }
+```
+
+Finally, let's consider MEASURES as separate from PERSON.
+
+```{mermaid}
+%%| label: fig-er-diagram-measure
+%%| fig-cap: Entity-relationship diagram for a possible Databrary spreadsheet model focusing on individual properties of measures.
+erDiagram
+  PERSON {
+    string personID
+  }
+  MEASURE {
+    string measureID
+    string measureName
+    string measureType
+    string measurePermission
+  }
+  PERSONMEASURE |{--|{ PERSON : ""
+  PERSONMEASURE |{--|{ MEASURE : ""
+  PERSONMEASURE {
+    string personMeasureID
+  }
+
+```
+
 ## Commentary
 
 - Consider thinking about sessions as *containers*, as DB1 did or as *collections* of people and files.
+- Consider desig
