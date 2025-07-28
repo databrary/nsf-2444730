@@ -187,6 +187,10 @@ erDiagram
 
 ```
 
+Finally, we could consider a BIDS-inspired scheme:
+
+![https://bids.neuroimaging.io](https://bids.neuroimaging.io/assets/img/dicom-reorganization-transparent-black_1000x477.png#only-light)
+
 ## Commentary
 
 - Consider thinking about sessions as *containers*, as DB1 did or as *collections* of people and files.
